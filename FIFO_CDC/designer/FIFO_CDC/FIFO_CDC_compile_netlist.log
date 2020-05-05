@@ -1,0 +1,46 @@
+Warning: CMPG4-007: Top level port W_DATA[31] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[30] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[29] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[28] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[27] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[26] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[25] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[24] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[23] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[22] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[21] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[20] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[19] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[18] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[17] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[16] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[15] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[14] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[13] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[12] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[11] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[10] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[9] is not connected to any IO pad
+Warning: CMPG4-007: Top level port W_DATA[8] is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       3 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     3 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    108    0      0      'W_CLK_ibuf_RNIL7HE' 
+    89     0      0      'R_CLK_ibuf_RNIGQR4' 
+    0      195    0      'RSTn_ibuf_RNICUT3' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

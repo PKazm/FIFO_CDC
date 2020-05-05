@@ -1,0 +1,149 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+
+# Written on Mon May  4 18:57:56 2020
+
+##### DESIGN INFO #######################################################
+
+Top View:                "FIFO_CDC"
+Constraint File(s):      "E:\Github_Repos\FIFO_CDC\FIFO_CDC\designer\FIFO_CDC\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting           Ending             |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------
+FIFO_CDC|W_CLK     FIFO_CDC|W_CLK     |     10.000           |     No paths         |     No paths         |     No paths                         
+FIFO_CDC|W_CLK     FIFO_CDC|R_CLK     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+FIFO_CDC|R_CLK     FIFO_CDC|W_CLK     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+FIFO_CDC|R_CLK     FIFO_CDC|R_CLK     |     10.000           |     No paths         |     No paths         |     No paths                         
+=================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:BYTES[0]
+p:BYTES[1]
+p:FIFO_IS_ON
+p:FIFO_ON
+p:RSTn
+p:R_DATA[0]
+p:R_DATA[1]
+p:R_DATA[2]
+p:R_DATA[3]
+p:R_DATA[4]
+p:R_DATA[5]
+p:R_DATA[6]
+p:R_DATA[7]
+p:R_DATA[8]
+p:R_DATA[9]
+p:R_DATA[10]
+p:R_DATA[11]
+p:R_DATA[12]
+p:R_DATA[13]
+p:R_DATA[14]
+p:R_DATA[15]
+p:R_DATA[16]
+p:R_DATA[17]
+p:R_DATA[18]
+p:R_DATA[19]
+p:R_DATA[20]
+p:R_DATA[21]
+p:R_DATA[22]
+p:R_DATA[23]
+p:R_DATA[24]
+p:R_DATA[25]
+p:R_DATA[26]
+p:R_DATA[27]
+p:R_DATA[28]
+p:R_DATA[29]
+p:R_DATA[30]
+p:R_DATA[31]
+p:R_EN
+p:R_READY
+p:W_DATA[0]
+p:W_DATA[1]
+p:W_DATA[2]
+p:W_DATA[3]
+p:W_DATA[4]
+p:W_DATA[5]
+p:W_DATA[6]
+p:W_DATA[7]
+p:W_DATA[8]
+p:W_DATA[9]
+p:W_DATA[10]
+p:W_DATA[11]
+p:W_DATA[12]
+p:W_DATA[13]
+p:W_DATA[14]
+p:W_DATA[15]
+p:W_DATA[16]
+p:W_DATA[17]
+p:W_DATA[18]
+p:W_DATA[19]
+p:W_DATA[20]
+p:W_DATA[21]
+p:W_DATA[22]
+p:W_DATA[23]
+p:W_DATA[24]
+p:W_DATA[25]
+p:W_DATA[26]
+p:W_DATA[27]
+p:W_DATA[28]
+p:W_DATA[29]
+p:W_DATA[30]
+p:W_DATA[31]
+p:W_EN
+p:W_FULL
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

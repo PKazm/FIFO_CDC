@@ -1,0 +1,11 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM 18K,PLLs and CCCs,Chip Globals,RCOSC_50MHZ
+FCCC_C0_0/FCCC_C0_0/Primitives,0,0,0,0,0,0,1,3,0
+FIFO_CDC_0/FIFO_CDC_LSRAM_0/Primitives,0,0,36,36,0,1,0,0,0
+FIFO_CDC_0/Gray_Code_Counter_R/Primitives,24,11,0,0,0,0,0,0,0
+FIFO_CDC_0/Gray_Code_Counter_W/Primitives,38,11,0,0,0,0,0,0,0
+FIFO_CDC_0/Primitives,99,175,0,0,0,0,0,0,0
+OSC_C0_0/OSC_C0_0/Primitives,0,0,0,0,0,0,0,0,1
+Primitives/Primitives,0,0,0,0,10,0,0,0,0
+fifo_read_test_0/Primitives,93,52,0,0,0,0,0,0,0
+fifo_write_test_0/Primitives,33,65,0,0,0,0,0,0,0

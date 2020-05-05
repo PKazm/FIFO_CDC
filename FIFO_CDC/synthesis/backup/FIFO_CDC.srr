@@ -1,0 +1,750 @@
+#Build: Synplify Pro (R) P-2019.03M-SP1-1, Build 266R, Dec  6 2019
+#install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: PHOENIX136DESKY
+
+# Mon May  4 18:57:51 2020
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp2019q2p1, Build 273R, Built Dec 16 2019 13:19:32
+
+@N|Running in 64-bit mode
+@N:"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":26:7:26:14|Top entity is set to FIFO_CDC.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":26:7:26:14|Synthesizing work.fifo_cdc.architecture_fifo_cdc.
+@N: CD604 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":417:12:417:25|OTHERS clause is not synthesized.
+@N: CD604 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":540:12:540:25|OTHERS clause is not synthesized.
+@W: CD638 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":66:11:66:16|Signal int_on is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":67:11:67:16|Signal mst_on is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\Gray_Code_Counter.vhd":27:7:27:23|Synthesizing work.gray_code_counter.architecture_gray_code_counter.
+Post processing for work.gray_code_counter.architecture_gray_code_counter
+Running optimization stage 1 on Gray_Code_Counter .......
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC_LSRAM.vhd":33:7:33:20|Synthesizing work.fifo_cdc_lsram.architecture_fifo_cdc_lsram.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+Post processing for smartfusion2.ram1k18.syn_black_box
+Post processing for work.fifo_cdc_lsram.architecture_fifo_cdc_lsram
+Running optimization stage 1 on FIFO_CDC_LSRAM .......
+Post processing for work.fifo_cdc.architecture_fifo_cdc
+Running optimization stage 1 on FIFO_CDC .......
+@W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":281:8:281:9|Pruning unused register BYTES_sig_3(1 downto 0). Make sure that there are no unused intermediate registers.
+Running optimization stage 2 on FIFO_CDC_LSRAM .......
+Running optimization stage 2 on Gray_Code_Counter .......
+Running optimization stage 2 on FIFO_CDC .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 95MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  4 18:57:53 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\layer0.srs changed - recompiling
+@N: NF107 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":26:7:26:14|Selected library: work cell: FIFO_CDC view architecture_fifo_cdc as top level
+@N: NF107 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":26:7:26:14|Selected library: work cell: FIFO_CDC view architecture_fifo_cdc as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 86MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  4 18:57:53 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\FIFO_CDC_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  4 18:57:53 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+Options changed - recompiling
+@N: NF107 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":26:7:26:14|Selected library: work cell: FIFO_CDC view architecture_fifo_cdc as top level
+@N: NF107 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":26:7:26:14|Selected library: work cell: FIFO_CDC view architecture_fifo_cdc as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  4 18:57:54 2020
+
+###########################################################]
+Premap Report
+
+# Mon May  4 18:57:54 2020
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 2737R, Built Jan 20 2020 09:12:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+Reading constraint file: E:\Github_Repos\FIFO_CDC\FIFO_CDC\designer\FIFO_CDC\synthesis.fdc
+@L: E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\FIFO_CDC_scck.rpt 
+Printing clock  summary report in "E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\FIFO_CDC_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 127MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 127MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 127MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 127MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist FIFO_CDC 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 160MB peak: 160MB)
+
+
+
+Clock Summary
+******************
+
+          Start              Requested     Requested     Clock        Clock                   Clock
+Level     Clock              Frequency     Period        Type         Group                   Load 
+---------------------------------------------------------------------------------------------------
+0 -       FIFO_CDC|W_CLK     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     132  
+                                                                                                   
+0 -       FIFO_CDC|R_CLK     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     89   
+===================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                   Clock     Source          Clock Pin                       Non-clock Pin     Non-clock Pin
+Clock              Load      Pin             Seq Example                     Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------------------
+FIFO_CDC|W_CLK     132       W_CLK(port)     p_W_sync\.W_raddr_1[10:0].C     -                 -            
+                                                                                                            
+FIFO_CDC|R_CLK     89        R_CLK(port)     p_R_sync\.R_waddr_1[10:0].C     -                 -            
+============================================================================================================
+
+@W: MT530 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc_lsram.vhd":106:4:106:11|Found inferred clock FIFO_CDC|W_CLK which controls 132 sequential elements including FIFO_CDC_LSRAM_0.DPSRAM_0. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc_lsram.vhd":106:4:106:11|Found inferred clock FIFO_CDC|R_CLK which controls 89 sequential elements including FIFO_CDC_LSRAM_0.DPSRAM_0. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\FIFO_CDC.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 161MB peak: 161MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 161MB peak: 161MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 161MB peak: 161MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 79MB peak: 163MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon May  4 18:57:56 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Mon May  4 18:57:56 2020
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2737R, Built Jan 20 2020 09:12:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 127MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 127MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 157MB peak: 157MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
+
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[8] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[8] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[9] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[9] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[10] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[10] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[11] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[11] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[12] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[12] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[13] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[13] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[14] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[14] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[15] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[15] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[16] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[16] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[17] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[17] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[18] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[18] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[19] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[19] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[20] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[20] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[21] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[21] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[22] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[22] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[23] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[23] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[24] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[24] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[25] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[25] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[26] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[26] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[27] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[27] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[28] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[28] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[29] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[29] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[30] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[30] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Removing sequential instance W_DATA_sig[31] (in view: work.FIFO_CDC(architecture_fifo_cdc)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":335:8:335:9|Boundary register W_DATA_sig[31] (in view: work.FIFO_CDC(architecture_fifo_cdc)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":421:11:421:36|Found 11 by 11 bit equality operator ('==') p_W_logic_c\.un22_w_adr_gray (in view: work.FIFO_CDC(architecture_fifo_cdc))
+@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":421:41:421:66|Found 11 by 11 bit equality operator ('==') p_W_logic_c\.un24_w_adr_gray (in view: work.FIFO_CDC(architecture_fifo_cdc))
+@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":427:11:427:41|Found 11 by 11 bit equality operator ('==') p_W_logic_c\.un25_w_adr_gray (in view: work.FIFO_CDC(architecture_fifo_cdc))
+@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":508:23:508:48|Found 11 by 11 bit equality operator ('==') p_R_logic_s\.un8_r_adr_gray (in view: work.FIFO_CDC(architecture_fifo_cdc))
+@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":508:53:508:83|Found 11 by 11 bit equality operator ('==') p_R_logic_s\.un10_r_adr_gray (in view: work.FIFO_CDC(architecture_fifo_cdc))
+@N: MO231 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\gray_code_counter.vhd":50:8:50:9|Found counter in view:work.Gray_Code_Counter_0(architecture_gray_code_counter) instance bin_cntr[10:0] 
+@N: MO231 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\gray_code_counter.vhd":50:8:50:9|Found counter in view:work.Gray_Code_Counter_1(architecture_gray_code_counter) instance bin_cntr[10:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 162MB peak: 162MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 163MB peak: 163MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 163MB peak: 164MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 163MB peak: 164MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 166MB peak: 166MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 166MB peak: 166MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 166MB peak: 167MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 166MB peak: 167MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 167MB peak: 167MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 169MB peak: 169MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:09s		     3.10ns		 222 /       195
+@N: FP130 |Promoting Net RSTn_c on CLKINT  I_229 
+@N: FP130 |Promoting Net W_CLK_c on CLKINT  I_230 
+@N: FP130 |Promoting Net R_CLK_c on CLKINT  I_231 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 169MB peak: 170MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 169MB peak: 170MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 197 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=============================== Non-Gated/Non-Generated Clocks ================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance        
+-----------------------------------------------------------------------------------------------
+@K:CKID0001       W_CLK               port                   108        p_W_sync\.W_raddr_0[10]
+@K:CKID0002       R_CLK               port                   89         R_cnt_clr              
+===============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 141MB peak: 170MB)
+
+Writing Analyst data base E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\FIFO_CDC_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 169MB peak: 170MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 169MB peak: 170MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 167MB peak: 170MB)
+
+@W: MT420 |Found inferred clock FIFO_CDC|W_CLK with period 10.00ns. Please declare a user-defined clock on port W_CLK.
+@W: MT420 |Found inferred clock FIFO_CDC|R_CLK with period 10.00ns. Please declare a user-defined clock on port R_CLK.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon May  4 18:58:09 2020
+#
+
+
+Top view:               FIFO_CDC
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    E:\Github_Repos\FIFO_CDC\FIFO_CDC\designer\FIFO_CDC\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 4.145
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+FIFO_CDC|R_CLK     100.0 MHz     200.1 MHz     10.000        4.997         5.003     inferred     Inferred_clkgroup_1
+FIFO_CDC|W_CLK     100.0 MHz     170.8 MHz     10.000        5.855         4.145     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+FIFO_CDC|W_CLK  FIFO_CDC|W_CLK  |  10.000      4.145  |  No paths    -      |  No paths    -      |  No paths    -    
+FIFO_CDC|W_CLK  FIFO_CDC|R_CLK  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+FIFO_CDC|R_CLK  FIFO_CDC|W_CLK  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+FIFO_CDC|R_CLK  FIFO_CDC|R_CLK  |  10.000      5.003  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FIFO_CDC|R_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                              Arrival          
+Instance                          Reference          Type     Pin     Net                               Time        Slack
+                                  Clock                                                                                  
+-------------------------------------------------------------------------------------------------------------------------
+p_R_logic_s\.R_adr_gray_1[6]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[6]      0.108       5.003
+p_R_logic_s\.R_adr_gray_1[2]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[2]      0.108       5.004
+p_R_logic_s\.R_adr_gray_1[7]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[7]      0.108       5.104
+p_R_logic_s\.R_adr_gray_1[3]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[3]      0.108       5.105
+p_R_logic_s\.R_adr_gray_1[4]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[4]      0.108       5.307
+p_R_logic_s\.R_adr_gray_1[5]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[5]      0.108       5.417
+p_R_logic_s\.R_adr_gray_1[10]     FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[10]     0.108       5.440
+p_R_logic_s\.R_adr_gray_1[8]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[8]      0.108       5.463
+p_R_logic_s\.R_adr_gray_1[0]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[0]      0.108       5.540
+p_R_logic_s\.R_adr_gray_1[9]      FIFO_CDC|R_CLK     SLE      Q       p_R_logic_s\.R_adr_gray_1[9]      0.108       5.563
+=========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                                                Required          
+Instance                         Reference          Type     Pin     Net                                                 Time         Slack
+                                 Clock                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------------
+p_R_logic_s\.R_adr_gray_0[0]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[1]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[2]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[3]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[4]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[5]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[6]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[7]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[8]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+p_R_logic_s\.R_adr_gray_0[9]     FIFO_CDC|R_CLK     SLE      EN      Gray_Code_Counter_R.R_adr_gray_0_0_sqmuxa_1_d_i     9.662        5.003
+===========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      4.659
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.003
+
+    Number of logic level(s):                5
+    Starting point:                          p_R_logic_s\.R_adr_gray_1[6] / Q
+    Ending point:                            p_R_logic_s\.R_adr_gray_0[0] / EN
+    The start point is clocked by            FIFO_CDC|R_CLK [rising] on pin CLK
+    The end   point is clocked by            FIFO_CDC|R_CLK [rising] on pin CLK
+
+Instance / Net                                                       Pin      Pin               Arrival     No. of    
+Name                                                        Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------
+p_R_logic_s\.R_adr_gray_1[6]                                SLE      Q        Out     0.108     0.108       -         
+p_R_logic_s\.R_adr_gray_1[6]                                Net      -        -       0.855     -           5         
+p_R_logic_s\.un8_r_adr_gray_NE_0                            CFG4     D        In      -         0.963       -         
+p_R_logic_s\.un8_r_adr_gray_NE_0                            CFG4     Y        Out     0.326     1.290       -         
+p_R_logic_s\.un8_r_adr_gray_NE_0                            Net      -        -       0.248     -           1         
+p_R_logic_s\.un8_r_adr_gray_NE_5                            CFG3     A        In      -         1.538       -         
+p_R_logic_s\.un8_r_adr_gray_NE_5                            CFG3     Y        Out     0.087     1.625       -         
+p_R_logic_s\.un8_r_adr_gray_NE_5                            Net      -        -       0.248     -           1         
+p_R_logic_s\.un8_r_adr_gray_NE                              CFG4     D        In      -         1.874       -         
+p_R_logic_s\.un8_r_adr_gray_NE                              CFG4     Y        Out     0.288     2.162       -         
+p_R_logic_s\.un8_r_adr_gray_NE                              Net      -        -       0.248     -           1         
+Gray_Code_Counter_R.p_R_logic_s\.un9_r_adr_gray             CFG4     B        In      -         2.410       -         
+Gray_Code_Counter_R.p_R_logic_s\.un9_r_adr_gray             CFG4     Y        Out     0.148     2.558       -         
+un9_r_adr_gray                                              Net      -        -       0.745     -           3         
+Gray_Code_Counter_R.p_R_logic_s\.un9_r_adr_gray_RNID6FS     CFG3     B        In      -         3.304       -         
+Gray_Code_Counter_R.p_R_logic_s\.un9_r_adr_gray_RNID6FS     CFG3     Y        Out     0.143     3.447       -         
+R_adr_gray_0_0_sqmuxa_1_d_i                                 Net      -        -       1.212     -           22        
+p_R_logic_s\.R_adr_gray_0[0]                                SLE      EN       In      -         4.659       -         
+======================================================================================================================
+Total path delay (propagation time + setup) of 4.997 is 1.439(28.8%) logic and 3.558(71.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: FIFO_CDC|W_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                              Arrival          
+Instance                          Reference          Type     Pin     Net                               Time        Slack
+                                  Clock                                                                                  
+-------------------------------------------------------------------------------------------------------------------------
+p_W_logic_s\.W_adr_gray_1[2]      FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[2]      0.108       4.145
+p_W_logic_s\.W_adr_gray_1[6]      FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[6]      0.108       4.239
+p_W_logic_s\.W_adr_gray_1[3]      FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[3]      0.108       4.245
+p_W_logic_s\.W_adr_gray_1[7]      FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[7]      0.108       4.340
+p_W_logic_s\.W_adr_gray_1[0]      FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[0]      0.108       4.649
+p_W_logic_s\.W_adr_gray_1[1]      FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[1]      0.108       4.749
+p_W_logic_s\.W_adr_gray_1[8]      FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[8]      0.108       4.772
+p_W_logic_s\.W_adr_gray_1[4]      FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[4]      0.108       4.849
+p_W_logic_s\.W_adr_gray_1[10]     FIFO_CDC|W_CLK     SLE      Q       p_W_logic_s\.W_adr_gray_1[10]     0.108       4.872
+p_W_sync\.W_raddr_next_0[2]       FIFO_CDC|W_CLK     SLE      Q       p_W_sync\.W_raddr_next_0[2]       0.108       4.873
+=========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                         Required          
+Instance                         Reference          Type     Pin     Net          Time         Slack
+                                 Clock                                                              
+----------------------------------------------------------------------------------------------------
+p_W_logic_s\.W_adr_gray_2[0]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[1]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[2]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[3]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[4]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[5]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[6]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[7]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[8]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+p_W_logic_s\.W_adr_gray_2[9]     FIFO_CDC|W_CLK     SLE      EN      i6_mux_i     9.662        4.145
+====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      5.518
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     4.145
+
+    Number of logic level(s):                5
+    Starting point:                          p_W_logic_s\.W_adr_gray_1[2] / Q
+    Ending point:                            p_W_logic_s\.W_adr_gray_2[0] / EN
+    The start point is clocked by            FIFO_CDC|W_CLK [rising] on pin CLK
+    The end   point is clocked by            FIFO_CDC|W_CLK [rising] on pin CLK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+p_W_logic_s\.W_adr_gray_1[2]            SLE      Q        Out     0.108     0.108       -         
+p_W_logic_s\.W_adr_gray_1[2]            Net      -        -       0.815     -           4         
+p_W_logic_c\.un25_w_adr_gray_NE_1       CFG4     D        In      -         0.923       -         
+p_W_logic_c\.un25_w_adr_gray_NE_1       CFG4     Y        Out     0.326     1.249       -         
+p_W_logic_c\.un25_w_adr_gray_NE_1       Net      -        -       0.248     -           1         
+p_W_logic_c\.un25_w_adr_gray_NE_1_1     CFG4     D        In      -         1.498       -         
+p_W_logic_c\.un25_w_adr_gray_NE_1_1     CFG4     Y        Out     0.317     1.815       -         
+p_W_logic_c\.un25_w_adr_gray_NE_1_1     Net      -        -       0.248     -           1         
+p_W_logic_c\.un25_w_adr_gray_NE         CFG4     C        In      -         2.063       -         
+p_W_logic_c\.un25_w_adr_gray_NE         CFG4     Y        Out     0.226     2.289       -         
+w_wen6                                  Net      -        -       0.977     -           11        
+W_WEN_RNIM6ML                           CFG3     B        In      -         3.266       -         
+W_WEN_RNIM6ML                           CFG3     Y        Out     0.164     3.430       -         
+N_21                                    Net      -        -       0.745     -           3         
+strtup_cnt_w_RNIPQO01[2]                CFG4     D        In      -         4.175       -         
+strtup_cnt_w_RNIPQO01[2]                CFG4     Y        Out     0.288     4.463       -         
+i6_mux_i                                Net      -        -       1.054     -           11        
+p_W_logic_s\.W_adr_gray_2[0]            SLE      EN       In      -         5.518       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 5.855 is 1.767(30.2%) logic and 4.088(69.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 168MB peak: 170MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 168MB peak: 170MB)
+
+---------------------------------------
+Resource Usage Report for FIFO_CDC 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          3 uses
+CFG1           2 uses
+CFG2           29 uses
+CFG3           56 uses
+CFG4           68 uses
+
+Carry cells:
+ARI1            24 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            195 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 75
+I/O primitives: 51
+INBUF          16 uses
+OUTBUF         35 uses
+
+
+Global Clock Buffers: 3
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 1 of 21 (4%)
+
+Total LUTs:    179
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  195 + 0 + 36 + 0 = 231;
+Total number of LUTs after P&R:  179 + 0 + 36 + 0 = 215;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 57MB peak: 170MB)
+
+Process took 0h:00m:12s realtime, 0h:00m:11s cputime
+# Mon May  4 18:58:09 2020
+
+###########################################################]

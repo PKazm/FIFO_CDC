@@ -1,0 +1,6 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM 18K,Chip Globals
+FIFO_CDC_LSRAM_0/Primitives,0,0,36,36,0,1,0
+Gray_Code_Counter_R/Primitives,25,11,0,0,0,0,0
+Gray_Code_Counter_W/Primitives,46,11,0,0,0,0,0
+Primitives/Primitives,108,173,0,0,51,0,3

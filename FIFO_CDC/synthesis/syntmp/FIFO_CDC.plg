@@ -1,0 +1,17 @@
+@P:  Worst Slack : 4.145
+@P:  FIFO_CDC|R_CLK - Estimated Frequency : 200.1 MHz
+@P:  FIFO_CDC|R_CLK - Requested Frequency : 100.0 MHz
+@P:  FIFO_CDC|R_CLK - Estimated Period : 4.997
+@P:  FIFO_CDC|R_CLK - Requested Period : 10.000
+@P:  FIFO_CDC|R_CLK - Slack : 5.003
+@P:  FIFO_CDC|W_CLK - Estimated Frequency : 170.8 MHz
+@P:  FIFO_CDC|W_CLK - Requested Frequency : 100.0 MHz
+@P:  FIFO_CDC|W_CLK - Estimated Period : 5.855
+@P:  FIFO_CDC|W_CLK - Requested Period : 10.000
+@P:  FIFO_CDC|W_CLK - Slack : 4.145
+@P: FIFO_CDC Part : m2s010vf400std
+@P: FIFO_CDC Register bits  : 195 
+@P: FIFO_CDC DSP Blocks  : 0
+@P: FIFO_CDC I/O primitives : 51
+@P: FIFO_CDC RAM1K18 :  1
+@P:  CPU Time : 0h:00m:11s

@@ -1,0 +1,14 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":26:7:26:14|Top entity is set to FIFO_CDC.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":26:7:26:14|Synthesizing work.fifo_cdc.architecture_fifo_cdc.
+@N: CD604 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":417:12:417:25|OTHERS clause is not synthesized.
+@N: CD604 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":540:12:540:25|OTHERS clause is not synthesized.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\Gray_Code_Counter.vhd":27:7:27:23|Synthesizing work.gray_code_counter.architecture_gray_code_counter.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC_LSRAM.vhd":33:7:33:20|Synthesizing work.fifo_cdc_lsram.architecture_fifo_cdc_lsram.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+@N|Running in 64-bit mode
+@N: NF107 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":26:7:26:14|Selected library: work cell: FIFO_CDC view architecture_fifo_cdc as top level
+@N: NF107 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":26:7:26:14|Selected library: work cell: FIFO_CDC view architecture_fifo_cdc as top level
+

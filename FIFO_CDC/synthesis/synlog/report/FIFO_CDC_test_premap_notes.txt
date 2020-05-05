@@ -1,0 +1,7 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist FIFO_CDC_test 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\FIFO_CDC_test.sap.
+@N: MO225 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_read_test.vhd":106:8:106:9|There are no possible illegal states for state machine states[0:3] (in view: work.fifo_read_test(architecture_fifo_read_test)); safe FSM implementation is not required.

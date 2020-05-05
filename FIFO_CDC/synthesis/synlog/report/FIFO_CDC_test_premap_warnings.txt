@@ -1,0 +1,3 @@
+@W: MT686 :"e:/github_repos/fifo_cdc/fifo_cdc/designer/fifo_cdc_test/synthesis.fdc":8:0:8:0|No path from master pin (-source) to source of clock FCCC_C0_0/FCCC_C0_0/GL0 
+@W: MT686 :"e:/github_repos/fifo_cdc/fifo_cdc/designer/fifo_cdc_test/synthesis.fdc":9:0:9:0|No path from master pin (-source) to source of clock FCCC_C0_0/FCCC_C0_0/GL1 
+@W: MF511 |Found issues with constraints. Please check constraint checker report "E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\FIFO_CDC_test_cck.rpt" .

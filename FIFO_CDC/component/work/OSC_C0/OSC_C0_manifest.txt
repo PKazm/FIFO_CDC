@@ -1,0 +1,18 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.4 (Version 12.900.0.16)
+
+Date      :  Mon May  4 17:42:29 2020
+Project   :  E:\Github_Repos\FIFO_CDC\FIFO_CDC
+Component :  OSC_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Github_Repos/FIFO_CDC/FIFO_CDC/component/work/OSC_C0/OSC_C0.vhd
+    E:/Github_Repos/FIFO_CDC/FIFO_CDC/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    E:/Github_Repos/FIFO_CDC/FIFO_CDC/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    E:/Github_Repos/FIFO_CDC/FIFO_CDC/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+

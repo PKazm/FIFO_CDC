@@ -1,0 +1,6 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. FIFO_CDC, 195, 155, 24, 0, 0, 1, 0, 3, 51
+.	. FIFO_CDC_LSRAM, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	. Gray_Code_Counter_0, 11, 13, 12, 0, 0, 0, 0, 0, 0
+.	. Gray_Code_Counter_1, 11, 34, 12, 0, 0, 0, 0, 0, 0

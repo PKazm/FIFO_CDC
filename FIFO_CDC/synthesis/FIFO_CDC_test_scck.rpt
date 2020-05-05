@@ -1,0 +1,55 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+
+# Written on Mon May  4 22:45:48 2020
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "E:\Github_Repos\FIFO_CDC\FIFO_CDC\designer\FIFO_CDC_test\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                         Requested     Requested     Clock                                                          Clock                Clock
+Level     Clock                                         Frequency     Period        Type                                                           Group                Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                                                       default_clkgroup     0    
+1 .         FCCC_C0_0/FCCC_C0_0/GL0                     125.0 MHz     8.000         generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup     175  
+1 .         FCCC_C0_0/FCCC_C0_0/GL1                     100.0 MHz     10.000        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup     143  
+                                                                                                                                                                             
+0 -       System                                        100.0 MHz     10.000        system                                                         system_clkgroup      0    
+=============================================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                              Clock     Source                                                        Clock Pin                    Non-clock Pin     Non-clock Pin                       
+Clock                                         Load      Pin                                                           Seq Example                  Seq Example       Comb Example                        
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     0         OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     -                            -                 -                                   
+FCCC_C0_0/FCCC_C0_0/GL0                       175       FCCC_C0_0.FCCC_C0_0.CCC_INST.GL0(CCC)                         fifo_write_test_0.W_EN.C     -                 FCCC_C0_0.FCCC_C0_0.GL0_INST.I(BUFG)
+FCCC_C0_0/FCCC_C0_0/GL1                       143       FCCC_C0_0.FCCC_C0_0.CCC_INST.GL1(CCC)                         fifo_read_test_0.R_EN.C      -                 FCCC_C0_0.FCCC_C0_0.GL1_INST.I(BUFG)
+                                                                                                                                                                                                         
+System                                        0         -                                                             -                            -                 -                                   
+=========================================================================================================================================================================================================

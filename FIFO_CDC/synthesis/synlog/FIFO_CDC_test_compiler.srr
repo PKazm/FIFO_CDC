@@ -1,0 +1,190 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp2019q2p1, Build 273R, Built Dec 16 2019 13:19:32
+
+@N|Running in 64-bit mode
+@N:"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\FIFO_CDC_test\FIFO_CDC_test.vhd":17:7:17:19|Top entity is set to FIFO_CDC_test.
+File C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\LED_inverter_dimmer.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_write_test.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\FCCC_C0\FCCC_C0.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\Gray_Code_Counter.vhd changed - recompiling
+File C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd\math_real.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0.vhd changed - recompiling
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\FIFO_CDC_test\FIFO_CDC_test.vhd changed - recompiling
+VHDL syntax check successful!
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\FIFO_CDC_test\FIFO_CDC_test.vhd":17:7:17:19|Synthesizing work.fifo_cdc_test.rtl.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0.vhd":17:7:17:12|Synthesizing work.osc_c0.rtl.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":8:7:8:25|Synthesizing work.osc_c0_osc_c0_0_osc.def_arch.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+Post processing for work.rcosc_25_50mhz.def_arch
+Post processing for work.osc_c0_osc_c0_0_osc.def_arch
+Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
+@W: CL240 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":12:10:12:27|Signal RCOSC_25_50MHZ_O2F is floating; a simulation mismatch is possible.
+Post processing for work.osc_c0.rtl
+Running optimization stage 1 on OSC_C0 .......
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\LED_inverter_dimmer.vhd":24:7:24:25|Synthesizing work.led_inverter_dimmer.architecture_led_inverter_dimmer.
+Post processing for work.led_inverter_dimmer.architecture_led_inverter_dimmer
+Running optimization stage 1 on LED_inverter_dimmer .......
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_write_test.vhd":24:7:24:21|Synthesizing work.fifo_write_test.architecture_fifo_write_test.
+Post processing for work.fifo_write_test.architecture_fifo_write_test
+Running optimization stage 1 on fifo_write_test .......
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd":24:7:24:20|Synthesizing work.fifo_read_test.architecture_fifo_read_test.
+@N: CD604 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd":67:12:67:25|OTHERS clause is not synthesized.
+@W: CG296 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd":50:4:50:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd":54:13:54:17|Referenced variable bytes is not in sensitivity list.
+@W: CG290 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd":56:66:56:72|Referenced variable counter is not in sensitivity list.
+Post processing for work.fifo_read_test.architecture_fifo_read_test
+Running optimization stage 1 on fifo_read_test .......
+@A: CL282 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd":106:8:106:9|Feedback mux created for signal next_byte[1:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd":106:8:106:9|Feedback mux created for signal buttons_last[1:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":26:7:26:14|Synthesizing work.fifo_cdc.architecture_fifo_cdc.
+@N: CD604 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":418:12:418:25|OTHERS clause is not synthesized.
+@N: CD604 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":548:12:548:25|OTHERS clause is not synthesized.
+@W: CD638 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":66:11:66:16|Signal int_on is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":67:11:67:16|Signal mst_on is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\Gray_Code_Counter.vhd":27:7:27:23|Synthesizing work.gray_code_counter.architecture_gray_code_counter.
+Post processing for work.gray_code_counter.architecture_gray_code_counter
+Running optimization stage 1 on Gray_Code_Counter .......
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC_LSRAM.vhd":33:7:33:20|Synthesizing work.fifo_cdc_lsram.architecture_fifo_cdc_lsram.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":588:10:588:16|Synthesizing smartfusion2.ram1k18.syn_black_box.
+Post processing for smartfusion2.ram1k18.syn_black_box
+Post processing for work.fifo_cdc_lsram.architecture_fifo_cdc_lsram
+Running optimization stage 1 on FIFO_CDC_LSRAM .......
+Post processing for work.fifo_cdc.architecture_fifo_cdc
+Running optimization stage 1 on FIFO_CDC .......
+@W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":321:8:321:9|Pruning unused register p_W_sync.W_raddr_next_0_2(10 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":321:8:321:9|Pruning unused register p_W_sync.W_raddr_next_1_2(10 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":282:8:282:9|Pruning unused register BYTES_sig_3(1 downto 0). Make sure that there are no unused intermediate registers.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\FCCC_C0\FCCC_C0.vhd":17:7:17:13|Synthesizing work.fccc_c0.rtl.
+@N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd":8:7:8:28|Synthesizing work.fccc_c0_fccc_c0_0_fccc.def_arch.
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
+Post processing for smartfusion2.ccc.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":576:10:576:12|Synthesizing smartfusion2.gnd.syn_black_box.
+Post processing for smartfusion2.gnd.syn_black_box
+@N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":582:10:582:12|Synthesizing smartfusion2.vcc.syn_black_box.
+Post processing for smartfusion2.vcc.syn_black_box
+Post processing for work.fccc_c0_fccc_c0_0_fccc.def_arch
+Running optimization stage 1 on FCCC_C0_FCCC_C0_0_FCCC .......
+Post processing for work.fccc_c0.rtl
+Running optimization stage 1 on FCCC_C0 .......
+Post processing for work.fifo_cdc_test.rtl
+Running optimization stage 1 on FIFO_CDC_test .......
+Running optimization stage 2 on FCCC_C0_FCCC_C0_0_FCCC .......
+Running optimization stage 2 on FCCC_C0 .......
+Running optimization stage 2 on FIFO_CDC_LSRAM .......
+Running optimization stage 2 on Gray_Code_Counter .......
+Running optimization stage 2 on FIFO_CDC .......
+Running optimization stage 2 on fifo_read_test .......
+@N: CL201 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\fifo_read_test.vhd":106:8:106:9|Trying to extract state machine for register states.
+Extracted state machine for register states
+State machine has 4 reachable states with original encodings of:
+   0000000000000000000000000000000
+   0000000000000000000000000000001
+   0000000000000000000000000000010
+   0000000000000000000000000000011
+Running optimization stage 2 on fifo_write_test .......
+Running optimization stage 2 on LED_inverter_dimmer .......
+Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
+@N: CL159 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+Running optimization stage 2 on OSC_C0 .......
+Running optimization stage 2 on FIFO_CDC_test .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 95MB peak: 98MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+
+Process completed successfully.
+# Mon May  4 22:45:45 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+File E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May  4 22:45:46 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\FIFO_CDC_test_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+
+Process completed successfully.
+# Mon May  4 22:45:46 2020
+
+###########################################################]

@@ -1,0 +1,256 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: PHOENIX136DESKY
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S010VF400STD (Microsemi)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  Top level view:   FIFO_CDC_test   ########
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      314                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_CDC_test:	314 (49.22 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           173                100 %                
+ARI1          113                100 %                
+BLACK BOX     2                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_CDC_test:	288 (45.14 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  100 %                
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_CDC_test:	1 (0.16 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block FIFO_CDC_test:	3 (0.47 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       10                 100 %                
+=================================================
+Total IO PADS in the block FIFO_CDC_test:	10 (1.57 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   FCCC_C0   ########
+Instance path:   FIFO_CDC_test.FCCC_C0                       
+=============================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  50 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_CDC_test.FCCC_C0:	1 (0.16 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block FIFO_CDC_test.FCCC_C0:	3 (0.47 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   FCCC_C0_FCCC_C0_0_FCCC   ########
+Instance path:   FCCC_C0.FCCC_C0_FCCC_C0_0_FCCC                             
+============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  50 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FCCC_C0.FCCC_C0_FCCC_C0_0_FCCC:	1 (0.16 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block FCCC_C0.FCCC_C0_FCCC_C0_0_FCCC:	3 (0.47 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_CDC   ########
+Instance path:   FIFO_CDC_test.FIFO_CDC                       
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      197                62.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_CDC_test.FIFO_CDC:	197 (30.88 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      138                79.8 %               
+ARI1     23                 20.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_CDC_test.FIFO_CDC:	161 (25.24 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  100 %                
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_CDC_test.FIFO_CDC:	1 (0.16 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_CDC_LSRAM   ########
+Instance path:   FIFO_CDC.FIFO_CDC_LSRAM                            
+====================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  100 %                
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_CDC.FIFO_CDC_LSRAM:	1 (0.16 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   Gray_Code_Counter_0   ########
+Instance path:   FIFO_CDC.Gray_Code_Counter_0                            
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      11                 3.5 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_CDC.Gray_Code_Counter_0:	11 (1.72 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      12                 6.94 %               
+ARI1     12                 10.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_CDC.Gray_Code_Counter_0:	24 (3.76 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   Gray_Code_Counter_1   ########
+Instance path:   FIFO_CDC.Gray_Code_Counter_1                            
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      11                 3.5 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_CDC.Gray_Code_Counter_1:	11 (1.72 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      27                 15.6 %               
+ARI1     11                 9.73 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_CDC.Gray_Code_Counter_1:	38 (5.96 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   OSC_C0   ########
+Instance path:   FIFO_CDC_test.OSC_C0                       
+============================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  50 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_CDC_test.OSC_C0:	1 (0.16 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   OSC_C0_OSC_C0_0_OSC   ########
+Instance path:   OSC_C0.OSC_C0_OSC_C0_0_OSC                              
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  50 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (0.16 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   fifo_read_test   ########
+Instance path:   FIFO_CDC_test.fifo_read_test                       
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      52                 16.6 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_CDC_test.fifo_read_test:	52 (8.15 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      34                 19.7 %               
+ARI1     58                 51.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_CDC_test.fifo_read_test:	92 (14.42 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   fifo_write_test   ########
+Instance path:   FIFO_CDC_test.fifo_write_test                       
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      65                 20.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_CDC_test.fifo_write_test:	65 (10.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.5780 %             
+ARI1     32                 28.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_CDC_test.fifo_write_test:	33 (5.17 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

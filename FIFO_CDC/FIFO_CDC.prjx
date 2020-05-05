@@ -1,0 +1,573 @@
+KEY LIBERO "12.900"
+KEY CAPTURE "12.900.0.16"
+KEY DEFAULT_IMPORT_LOC "D:\Appsnotes\2010\User_Logic_to_MSS\design_files\User_Logic_MSS_DF_old\APB_master_fabric\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "tq144"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "0"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "E:\Github_Repos\FIFO_CDC\FIFO_CDC"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "FIFO_CDC_test::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREABC_LIB
+ENDLIST
+LIST LIBRARY_COREABC_LIB
+ALIAS=COREABC_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588628598"
+SIZE="241"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588628548"
+SIZE="682"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd,hdl"
+STATE="utd"
+TIME="1573066799"
+SIZE="2164"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.vhd,hdl"
+STATE="utd"
+TIME="1573066799"
+SIZE="2108"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588628598"
+SIZE="10593"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.vhd,hdl"
+STATE="utd"
+TIME="1588628598"
+SIZE="3443"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588628598"
+SIZE="705"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd,hdl"
+STATE="utd"
+TIME="1588628598"
+SIZE="5700"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FIFO_CDC_test\FIFO_CDC_test.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588632156"
+SIZE="2190"
+ENDFILE
+VALUE "<project>\component\work\FIFO_CDC_test\FIFO_CDC_test.vhd,hdl"
+STATE="utd"
+TIME="1588632156"
+SIZE="8179"
+PARENT="<project>\component\work\FIFO_CDC_test\FIFO_CDC_test.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588628549"
+SIZE="2913"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.vhd,hdl"
+STATE="utd"
+TIME="1588628548"
+SIZE="3429"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1588628548"
+SIZE="460"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd,hdl"
+STATE="utd"
+TIME="1588628548"
+SIZE="896"
+PARENT="<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\FIFO_CDC_test_derived_constraints.sdc,sdc"
+STATE="utd"
+TIME="1588633501"
+SIZE="891"
+ENDFILE
+VALUE "<project>\constraint\io\SF2_MKR_KIT_buttons.pdc,io_pdc"
+STATE="utd"
+TIME="1588631021"
+SIZE="226"
+ENDFILE
+VALUE "<project>\constraint\io\SF2_MKR_KIT_leds.pdc,io_pdc"
+STATE="utd"
+TIME="1588628421"
+SIZE="858"
+ENDFILE
+VALUE "<project>\designer\impl1\FIFO_CDC.ide_des,ide_des"
+STATE="utd"
+TIME="1588628435"
+SIZE="275"
+ENDFILE
+VALUE "<project>\designer\impl1\FIFO_CDC_LSRAM.ide_des,ide_des"
+STATE="utd"
+TIME="1588557657"
+SIZE="199"
+ENDFILE
+VALUE "<project>\designer\impl1\FIFO_CDC_test.ide_des,ide_des"
+STATE="utd"
+TIME="1588633514"
+SIZE="543"
+ENDFILE
+VALUE "<project>\hdl\FIFO_CDC.vhd,hdl"
+STATE="utd"
+TIME="1588646719"
+SIZE="19729"
+ENDFILE
+VALUE "<project>\hdl\FIFO_CDC_LSRAM.vhd,hdl"
+STATE="utd"
+TIME="1588573537"
+SIZE="9636"
+ENDFILE
+VALUE "<project>\hdl\fifo_read_test.vhd,hdl"
+STATE="utd"
+TIME="1588645120"
+SIZE="4909"
+ENDFILE
+VALUE "<project>\hdl\fifo_write_test.vhd,hdl"
+STATE="utd"
+TIME="1588635999"
+SIZE="1383"
+ENDFILE
+VALUE "<project>\hdl\Gray_Code_Counter.vhd,hdl"
+STATE="utd"
+TIME="1588562255"
+SIZE="1879"
+ENDFILE
+VALUE "<project>\hdl\Gray_Code_package.vhd,hdl"
+STATE="utd"
+TIME="1588562255"
+SIZE="1626"
+ENDFILE
+VALUE "<project>\hdl\LED_inverter_dimmer.vhd,hdl"
+STATE="utd"
+TIME="1588628502"
+SIZE="1116"
+ENDFILE
+VALUE "<project>\hdl\trigger_pulse_gen.vhd,hdl"
+STATE="utd"
+TIME="1588629368"
+SIZE="1125"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1588640338"
+SIZE="1865"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1588640337"
+SIZE="233"
+ENDFILE
+VALUE "<project>\stimulus\FIFO_CDC_LSRAM_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1588568524"
+SIZE="11677"
+ENDFILE
+VALUE "<project>\stimulus\FIFO_CDC_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1588627787"
+SIZE="14478"
+ENDFILE
+VALUE "<project>\synthesis\FIFO_CDC.so,so"
+STATE="utd"
+TIME="1588633089"
+SIZE="224"
+ENDFILE
+VALUE "<project>\synthesis\FIFO_CDC.vm,syn_vm"
+STATE="ood"
+TIME="1588633088"
+SIZE="106892"
+ENDFILE
+VALUE "<project>\synthesis\FIFO_CDC_syn.prj,prj"
+STATE="utd"
+TIME="1588633090"
+SIZE="2349"
+ENDFILE
+VALUE "<project>\synthesis\FIFO_CDC_test.so,so"
+STATE="utd"
+TIME="1588645157"
+SIZE="234"
+ENDFILE
+VALUE "<project>\synthesis\FIFO_CDC_test.vm,syn_vm"
+STATE="utd"
+TIME="1588645157"
+SIZE="141801"
+ENDFILE
+VALUE "<project>\synthesis\FIFO_CDC_test_syn.prj,prj"
+STATE="utd"
+TIME="1588645158"
+SIZE="3321"
+ENDFILE
+VALUE "<project>\synthesis\FIFO_CDC_test_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1588645157"
+SIZE="1365"
+ENDFILE
+VALUE "<project>\synthesis\FIFO_CDC_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1588633088"
+SIZE="1210"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "FIFO_CDC::work"
+FILE "<project>\hdl\FIFO_CDC.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\FIFO_CDC_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "FIFO_CDC_LSRAM::work"
+FILE "<project>\hdl\FIFO_CDC_LSRAM.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\FIFO_CDC_LSRAM_tb.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "FIFO_CDC_test::work"
+FILE "<project>\component\work\FIFO_CDC_test\FIFO_CDC_test.vhd,hdl"
+LIST SynthesisConstraints
+VALUE "<project>\constraint\FIFO_CDC_test_derived_constraints.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>\constraint\FIFO_CDC_test_derived_constraints.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\FIFO_CDC_test.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST FIFO_CDC
+VALUE "<project>\stimulus\FIFO_CDC_tb.vhd,tb_hdl"
+ENDLIST
+LIST FIFO_CDC_LSRAM
+VALUE "<project>\stimulus\FIFO_CDC_LSRAM_tb.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1ms
+Resolution=10ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=TRUE
+LibraryPath=C:/Microsemi/Libero_SoC_v12.4/Designer/lib/modelsimpro/precompiled\vlog\SmartFusion2
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="SynplifyProME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSimME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v12.4\ModelSim\win32acoem\modelsim.exe"
+PARAM=" -l testbench_presynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="IdentifyDebugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v12.4\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "FIFO_CDC::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "FIFO_CDC_LSRAM::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "FIFO_CDC_test::work"
+LIST Impl1
+ideSYNTHESIS(<project>\synthesis\FIFO_CDC_test.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "Gray_Code_Counter::work","hdl\Gray_Code_Counter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FIFO_CDC::work","hdl\FIFO_CDC.vhd","FALSE","FALSE"
+SUBBLOCK "FIFO_CDC_LSRAM::work","hdl\FIFO_CDC_LSRAM.vhd","FALSE","FALSE"
+SUBBLOCK "Gray_Code_Counter::work","hdl\Gray_Code_Counter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FIFO_CDC_LSRAM::work","hdl\FIFO_CDC_LSRAM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FIFO_CDC_test::work","component\work\FIFO_CDC_test\FIFO_CDC_test.vhd","TRUE","FALSE"
+SUBBLOCK "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "FIFO_CDC::work","hdl\FIFO_CDC.vhd","FALSE","FALSE"
+SUBBLOCK "LED_inverter_dimmer::work","hdl\LED_inverter_dimmer.vhd","FALSE","FALSE"
+SUBBLOCK "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "fifo_read_test::work","hdl\fifo_read_test.vhd","FALSE","FALSE"
+SUBBLOCK "fifo_write_test::work","hdl\fifo_write_test.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fifo_read_test::work","hdl\fifo_read_test.vhd","FALSE","FALSE"
+ENDLIST
+LIST "fifo_write_test::work","hdl\fifo_write_test.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Gray_Code_package::work","hdl\Gray_Code_package.vhd","FALSE","FALSE"
+ENDLIST
+LIST "LED_inverter_dimmer::work","hdl\LED_inverter_dimmer.vhd","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "trigger_pulse_gen::work","hdl\trigger_pulse_gen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FIFO_CDC::work","hdl\FIFO_CDC.vhd","FALSE","FALSE"
+SUBBLOCK "FIFO_CDC_LSRAM::work","hdl\FIFO_CDC_LSRAM.vhd","FALSE","FALSE"
+SUBBLOCK "Gray_Code_Counter::work","hdl\Gray_Code_Counter.vhd","FALSE","FALSE"
+ENDLIST
+LIST "testbench::work","stimulus\FIFO_CDC_LSRAM_tb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::work","stimulus\FIFO_CDC_tb.vhd","FALSE","TRUE"
+SUBBLOCK "FIFO_CDC::work","hdl\FIFO_CDC.vhd","FALSE","FALSE"
+SUBBLOCK "FIFO_CDC::work","hdl\FIFO_CDC.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\SF2_MKR_KIT_leds.pdc"
+VALUE "constraint\io\SF2_MKR_KIT_buttons.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\FIFO_CDC_test_derived_constraints.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

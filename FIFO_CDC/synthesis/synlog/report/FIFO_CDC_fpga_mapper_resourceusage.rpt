@@ -1,0 +1,38 @@
+Resource Usage Report for FIFO_CDC 
+
+Mapping to part: m2s010vf400std
+Cell usage:
+CLKINT          3 uses
+CFG1           2 uses
+CFG2           29 uses
+CFG3           56 uses
+CFG4           68 uses
+
+Carry cells:
+ARI1            24 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            195 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 75
+I/O primitives: 51
+INBUF          16 uses
+OUTBUF         35 uses
+
+
+Global Clock Buffers: 3
+
+Total LUTs:    179
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  195 + 0 + 36 + 0 = 231;
+Total number of LUTs after P&R:  179 + 0 + 36 + 0 = 215;
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>FIFO_CDC_test</design>
+	<target_verilog>E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\FIFO_CDC_test.vm</target_verilog>
+</SynplifyOutput>

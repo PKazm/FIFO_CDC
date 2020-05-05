@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>FIFO_CDC_test</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin FIFO_CDC_0:W_EN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:W_EN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin W_DATA</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:W_DATA</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin FIFO_CDC_0:W_FULL</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:W_FULL</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin FIFO_CDC_0:R_EN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:R_EN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin FIFO_CDC_0:R_DATA[31:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:R_DATA</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin FIFO_CDC_0:R_READY</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:R_READY</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin FIFO_CDC_0:FIFO_ON</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:FIFO_ON</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin FIFO_CDC_0:FIFO_IS_ON</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:FIFO_IS_ON</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin BYTES</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/FIFO_CDC_0:BYTES</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.4\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin LED_toggles</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FIFO_CDC_test/pins/LED_inverter_dimmer_0:LED_toggles</crossprobe>
+  </drc>
+</drcreport>

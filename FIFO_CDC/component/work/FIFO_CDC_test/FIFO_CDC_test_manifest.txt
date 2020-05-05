@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.4 (Version 12.900.0.16)
+
+Date      :  Mon May  4 18:42:36 2020
+Project   :  E:\Github_Repos\FIFO_CDC\FIFO_CDC
+Component :  FIFO_CDC_test
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Github_Repos/FIFO_CDC/FIFO_CDC/component/work/FIFO_CDC_test/FIFO_CDC_test.vhd
+
