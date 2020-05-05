@@ -494,8 +494,13 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run Programming Action:FIFO_CDC_test_PROGRAM.log
+SmartDesign;FIFO_CDC_test;0
+Constraint Manager;Constraint Manager;0
+HDL;stimulus\FIFO_CDC_tb.vhd;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "Gray_Code_Counter::work","hdl\Gray_Code_Counter.vhd","FALSE","FALSE"
