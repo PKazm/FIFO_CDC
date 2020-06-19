@@ -1,5 +1,5 @@
-FIFO_CDC/designer
-FIFO_CDC/simulation
-FIFO_CDC/smartgen
-FIFO_CDC/synthesis
-FIFO_CDC/tooldata
+FIFO_CDC/*
+!/FIFO_CDC/component
+!/FIFO_CDC/constraint
+!/FIFO_CDC/stimulus
+!/FIFO_CDC/hdl
