@@ -183,7 +183,7 @@ SIZE="543"
 ENDFILE
 VALUE "<project>\hdl\FIFO_CDC.vhd,hdl"
 STATE="utd"
-TIME="1588646719"
+TIME="1588744654"
 SIZE="19729"
 ENDFILE
 VALUE "<project>\hdl\FIFO_CDC_LSRAM.vhd,hdl"
@@ -258,22 +258,22 @@ SIZE="2349"
 ENDFILE
 VALUE "<project>\synthesis\FIFO_CDC_test.so,so"
 STATE="utd"
-TIME="1588645157"
+TIME="1588646766"
 SIZE="234"
 ENDFILE
 VALUE "<project>\synthesis\FIFO_CDC_test.vm,syn_vm"
-STATE="utd"
-TIME="1588645157"
-SIZE="141801"
+STATE="ood"
+TIME="1588646765"
+SIZE="149025"
 ENDFILE
 VALUE "<project>\synthesis\FIFO_CDC_test_syn.prj,prj"
 STATE="utd"
-TIME="1588645158"
+TIME="1588646767"
 SIZE="3321"
 ENDFILE
 VALUE "<project>\synthesis\FIFO_CDC_test_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1588645157"
+TIME="1588646766"
 SIZE="1365"
 ENDFILE
 VALUE "<project>\synthesis\FIFO_CDC_vm.sdc,syn_sdc"
@@ -331,7 +331,8 @@ VALUE "<project>\constraint\FIFO_CDC_test_derived_constraints.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-ideSYNTHESIS(<project>\synthesis\FIFO_CDC_test.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\FIFO_CDC_test.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\FIFO_CDC_test.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -471,7 +472,8 @@ ENDLIST
 ENDLIST
 LIST "FIFO_CDC_test::work"
 LIST Impl1
-ideSYNTHESIS(<project>\synthesis\FIFO_CDC_test.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\FIFO_CDC_test.vm,syn_vm)=StateFailure
+ideSYNTHESIS(<project>\synthesis\FIFO_CDC_test.edn,syn_edn)=StateFailure
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -495,10 +497,11 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Run Programming Action:FIFO_CDC_test_PROGRAM.log
+ReportsCurrentItem;Synthesize:FIFO_CDC_test.srr
 SmartDesign;FIFO_CDC_test;0
 Constraint Manager;Constraint Manager;0
 HDL;stimulus\FIFO_CDC_tb.vhd;0
+HDL;hdl\FIFO_CDC.vhd;0
 StartPage;StartPage;0
 ACTIVEVIEW;Reports
 ENDLIST

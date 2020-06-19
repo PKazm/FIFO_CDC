@@ -1,1 +1,0 @@
-@W: MT246 :"e:\github_repos\fifo_cdc\fifo_cdc\component\work\fccc_c0\fccc_c0_0\fccc_c0_fccc_c0_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)

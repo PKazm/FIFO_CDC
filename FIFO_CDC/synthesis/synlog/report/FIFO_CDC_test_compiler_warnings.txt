@@ -10,5 +10,4 @@
 @W: CD638 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":67:11:67:16|Signal mst_on is undriven. Either assign the signal a value or remove the signal declaration.
 @W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":321:8:321:9|Pruning unused register p_W_sync.W_raddr_next_0_2(10 downto 0). Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":321:8:321:9|Pruning unused register p_W_sync.W_raddr_next_1_2(10 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":282:8:282:9|Pruning unused register BYTES_sig_3(1 downto 0). Make sure that there are no unused intermediate registers.
 

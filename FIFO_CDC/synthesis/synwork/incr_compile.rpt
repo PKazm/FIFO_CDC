@@ -16,17 +16,17 @@ Synopsys HDL compiler and linker, Version comp2019q2p1, Build 273R, Built Dec 16
 
 Modified Files: 1
 FID:  path (prevtimestamp, timestamp)
-18       E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd (2020-05-04 22:16:04, 2020-05-04 22:45:19)
+18       E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd (2020-05-04 22:45:19, 2020-05-06 01:57:34)
 
 *******************************************************************
 Modules that may have changed as a result of file changes: 3
 MID:  lib.cell.view
 4        work.fifo_cdc.architecture_fifo_cdc may have changed because the following files changed:
-                        E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd (2020-05-04 22:16:04, 2020-05-04 22:45:19) <-- (architecture and entity definition)
+                        E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd (2020-05-04 22:45:19, 2020-05-06 01:57:34) <-- (architecture and entity definition)
 6        work.fifo_cdc_lsram.architecture_fifo_cdc_lsram may have changed because the following files changed:
-                        E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd (2020-05-04 22:16:04, 2020-05-04 22:45:19) <-- (may instantiate this module)
+                        E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd (2020-05-04 22:45:19, 2020-05-06 01:57:34) <-- (may instantiate this module)
 14       work.gray_code_counter.architecture_gray_code_counter may have changed because the following files changed:
-                        E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd (2020-05-04 22:16:04, 2020-05-04 22:45:19) <-- (may instantiate this module)
+                        E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd (2020-05-04 22:45:19, 2020-05-06 01:57:34) <-- (may instantiate this module)
 
 *******************************************************************
 Unmodified files: 24

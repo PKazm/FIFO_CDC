@@ -9,17 +9,17 @@ The file contains the job information from mapper to be displayed as part of the
 <title></title>
 </report_link>
 <job_status>
-<data>Completed</data>
+<data>Failed</data>
 </job_status>
 <job_info>
 <info name="Notes">
-<data>23</data>
+<data>16</data>
 <report_link name="more">
 <data>E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synlog\report\FIFO_CDC_test_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>1</data>
+<data>0</data>
 <report_link name="more">
 <data>E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synlog\report\FIFO_CDC_test_fpga_mapper_warnings.txt</data>
 </report_link>
@@ -31,16 +31,16 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:15s</data>
+<data>0h:00m:12s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:17s</data>
+<data>0h:00m:13s</data>
 </info>
 <info name="Peak Memory">
-<data>170MB</data>
+<data>188MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1588646767</data>
+<data type="timestamp">1588744690</data>
 </info>
 </job_info>
 </job_run_status>

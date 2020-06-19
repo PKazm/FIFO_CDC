@@ -1,4 +1,4 @@
-# Mon May  4 22:45:49 2020
+# Wed May  6 01:57:56 2020
 
 
 Copyright (C) 1994-2019 Synopsys, Inc.
@@ -23,10 +23,10 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 127MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 127MB)
@@ -50,8 +50,8 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 @N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":422:41:422:66|Found 11 by 11 bit equality operator ('==') p_W_logic_c\.un24_w_adr_gray (in view: work.FIFO_CDC(architecture_fifo_cdc))
 @N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":509:23:509:48|Found 11 by 11 bit equality operator ('==') p_R_logic_s\.un8_r_adr_gray (in view: work.FIFO_CDC(architecture_fifo_cdc))
 @N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":509:53:509:83|Found 11 by 11 bit equality operator ('==') p_R_logic_s\.un10_r_adr_gray (in view: work.FIFO_CDC(architecture_fifo_cdc))
-@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":530:44:530:75|Found 11 by 11 bit equality operator ('==') p_R_logic_c\.un1_R_adr_gray_1 (in view: work.FIFO_CDC(architecture_fifo_cdc))
-@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":530:12:530:38|Found 11 by 11 bit equality operator ('==') p_R_logic_c\.un1_R_adr_gray_1_1 (in view: work.FIFO_CDC(architecture_fifo_cdc))
+@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":530:12:530:38|Found 11 by 11 bit equality operator ('==') p_R_logic_c\.un1_R_adr_gray_1 (in view: work.FIFO_CDC(architecture_fifo_cdc))
+@N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_cdc.vhd":530:44:530:75|Found 11 by 11 bit equality operator ('==') p_R_logic_c\.un1_R_adr_gray_1_1 (in view: work.FIFO_CDC(architecture_fifo_cdc))
 @N: MO231 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\gray_code_counter.vhd":50:8:50:9|Found counter in view:work.Gray_Code_Counter_0(architecture_gray_code_counter) instance bin_cntr[10:0] 
 @N: MO231 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\gray_code_counter.vhd":50:8:50:9|Found counter in view:work.Gray_Code_Counter_1(architecture_gray_code_counter) instance bin_cntr[10:0] 
 Encoding state machine states[0:3] (in view: work.fifo_read_test(architecture_fifo_read_test))
@@ -64,761 +64,109 @@ original code -> new code
 @N: MO231 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_read_test.vhd":71:2:71:3|Found counter in view:work.fifo_read_test(architecture_fifo_read_test) instance counter[31:0] 
 @N: MF179 :"e:\github_repos\fifo_cdc\fifo_cdc\hdl\fifo_read_test.vhd":89:19:89:39|Found 32 by 32 bit equality operator ('==') un3_fifo_ready_sig2 (in view: work.fifo_read_test(architecture_fifo_read_test))
 
-Starting factoring (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 163MB peak: 163MB)
+Starting factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:10s; Memory used current: 163MB peak: 163MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 166MB peak: 166MB)
+Finished factoring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 168MB peak: 168MB)
 
 
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 166MB peak: 166MB)
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 168MB peak: 169MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 166MB peak: 166MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 168MB peak: 169MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 167MB peak: 167MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 168MB peak: 169MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:12s; Memory used current: 167MB peak: 167MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 169MB peak: 169MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 167MB peak: 168MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 169MB peak: 169MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 167MB peak: 168MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 169MB peak: 169MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 168MB peak: 168MB)
+Finished preparing to map (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 170MB peak: 170MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 169MB peak: 169MB)
+Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 170MB peak: 170MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:13s		    -3.66ns		 336 /       314
-   2		0h:00m:13s		    -3.66ns		 293 /       314
-   3		0h:00m:13s		    -3.42ns		 293 /       314
+   1		0h:00m:12s		    -3.48ns		 472 /       316
+   2		0h:00m:12s		    -3.48ns		 398 /       316
 
-   4		0h:00m:13s		    -3.42ns		 293 /       314
+   3		0h:00m:12s		    -3.48ns		 398 /       316
 
 
-   5		0h:00m:13s		    -3.42ns		 293 /       314
-@N: FP130 |Promoting Net LOCK_arst on CLKINT  I_74 
+   4		0h:00m:12s		    -3.48ns		 398 /       316
+@N: FP130 |Promoting Net LOCK_arst on CLKINT  I_82 
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
-
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:13s; Memory used current: 169MB peak: 170MB)
-
-
-Finished restoring hierarchy (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 169MB peak: 170MB)
-
-
-
-@S |Clock Optimization Summary
-
-
-#### START OF CLOCK OPTIMIZATION REPORT #####[
-
-Clock optimization not enabled
-0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 316 clock pin(s) of sequential element(s)
-0 instances converted, 316 sequential instances remain driven by gated/generated clocks
-
-=========================================================================== Gated/Generated Clocks ===========================================================================
-Clock Tree ID     Driving Element                  Drive Element Type     Fanout     Sample Instance                   Explanation                                            
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       FCCC_C0_0.FCCC_C0_0.CCC_INST     CCC                    175        fifo_write_test_0.counter[31]     No gated clock conversion method for cell cell:ACG4.SLE
-@K:CKID0002       FCCC_C0_0.FCCC_C0_0.CCC_INST     CCC                    141        fifo_read_test_0.counter[31]      No gated clock conversion method for cell cell:ACG4.SLE
-==============================================================================================================================================================================
-
-
-##### END OF CLOCK OPTIMIZATION REPORT ######]
-
-
-Start Writing Netlists (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 141MB peak: 170MB)
-
-Writing Analyst data base E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\FIFO_CDC_test_m.srm
-
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 169MB peak: 170MB)
-
-Writing Verilog Simulation files
-@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
-@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
-
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:14s; Memory used current: 170MB peak: 170MB)
-
-
-Start final timing analysis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 169MB peak: 170MB)
-
-@W: MT246 :"e:\github_repos\fifo_cdc\fifo_cdc\component\work\fccc_c0\fccc_c0_0\fccc_c0_fccc_c0_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
-@N: MT615 |Found clock OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
-@N: MT615 |Found clock FCCC_C0_0/FCCC_C0_0/GL0 with period 8.00ns 
-@N: MT615 |Found clock FCCC_C0_0/FCCC_C0_0/GL1 with period 10.00ns 
-
-
-##### START OF TIMING REPORT #####[
-# Timing report written on Mon May  4 22:46:06 2020
-#
-
-
-Top view:               FIFO_CDC_test
-Requested Frequency:    50.0 MHz
-Wire load mode:         top
-Paths requested:        5
-Constraint File(s):    E:\Github_Repos\FIFO_CDC\FIFO_CDC\designer\FIFO_CDC_test\synthesis.fdc
-                       
-@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
-
-@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
-
-
-
-Performance Summary
-*******************
-
-
-Worst slack in design: -2.532
-
-                                              Requested     Estimated     Requested     Estimated                Clock                                                          Clock           
-Starting Clock                                Frequency     Frequency     Period        Period        Slack      Type                                                           Group           
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FCCC_C0_0/FCCC_C0_0/GL0                       125.0 MHz     55.2 MHz      8.000         18.128        -2.532     generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup
-FCCC_C0_0/FCCC_C0_0/GL1                       100.0 MHz     44.1 MHz      10.000        22.660        0.130      generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup
-OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      NA            20.000        NA            NA         declared                                                       default_clkgroup
-System                                        100.0 MHz     474.3 MHz     10.000        2.109         7.891      system                                                         system_clkgroup 
-================================================================================================================================================================================================
-Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
-
-
-
-
-
-Clock Relationships
-*******************
-
-Clocks                                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
------------------------------------------------------------------------------------------------------------------------------------------
-Starting                 Ending                   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
------------------------------------------------------------------------------------------------------------------------------------------
-System                   FCCC_C0_0/FCCC_C0_0/GL1  |  10.000      7.892   |  No paths    -      |  No paths    -      |  No paths    -    
-FCCC_C0_0/FCCC_C0_0/GL0  FCCC_C0_0/FCCC_C0_0/GL0  |  8.000       2.444   |  No paths    -      |  No paths    -      |  No paths    -    
-FCCC_C0_0/FCCC_C0_0/GL0  FCCC_C0_0/FCCC_C0_0/GL1  |  2.000       -2.532  |  No paths    -      |  No paths    -      |  No paths    -    
-FCCC_C0_0/FCCC_C0_0/GL1  FCCC_C0_0/FCCC_C0_0/GL0  |  2.000       0.130   |  No paths    -      |  No paths    -      |  No paths    -    
-FCCC_C0_0/FCCC_C0_0/GL1  FCCC_C0_0/FCCC_C0_0/GL1  |  10.000      5.019   |  No paths    -      |  No paths    -      |  No paths    -    
-=========================================================================================================================================
- Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
-       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
-
-
-
-Interface Information 
-*********************
-
-No IO constraint found
-
-
-
-====================================
-Detailed Report for Clock: FCCC_C0_0/FCCC_C0_0/GL0
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                         Starting                                                                         Arrival           
-Instance                                 Reference                   Type        Pin            Net                       Time        Slack 
-                                         Clock                                                                                              
---------------------------------------------------------------------------------------------------------------------------------------------
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[11]     FIFO_CDC_0_R_DATA[10]     2.289       -2.532
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[9]      FIFO_CDC_0_R_DATA[8]      2.289       -2.487
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[14]     FIFO_CDC_0_R_DATA[13]     2.289       -2.070
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[16]     FIFO_CDC_0_R_DATA[15]     2.289       -2.054
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[1]      FIFO_CDC_0_R_DATA[1]      2.289       -1.896
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[3]      FIFO_CDC_0_R_DATA[3]      2.289       -1.880
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[5]      FIFO_CDC_0_R_DATA[5]      2.289       -1.863
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[7]      FIFO_CDC_0_R_DATA[7]      2.289       -1.847
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[0]      FIFO_CDC_0_R_DATA[0]      2.289       -1.835
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0     FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     B_DOUT[2]      FIFO_CDC_0_R_DATA[2]      2.289       -1.818
-============================================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                                           Starting                                                                                      Required           
-Instance                                   Reference                   Type        Pin          Net                                      Time         Slack 
-                                           Clock                                                                                                            
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-fifo_read_test_0.LEDs[7]                   FCCC_C0_0/FCCC_C0_0/GL0     SLE         D            un3_fifo_ready_sig2_0_data_tmp_i[15]     1.745        -2.532
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0       FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     A_WEN[0]     W_WEN                                    1.529        0.247 
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0       FCCC_C0_0/FCCC_C0_0/GL0     RAM1K18     A_WEN[1]     W_WEN                                    1.529        0.247 
-FIFO_CDC_0.p_R_sync\.R_waddr_next_1[0]     FCCC_C0_0/FCCC_C0_0/GL0     SLE         D            W_adr_gray_1[0]                          1.745        0.912 
-FIFO_CDC_0.p_R_sync\.R_waddr_next_1[1]     FCCC_C0_0/FCCC_C0_0/GL0     SLE         D            W_adr_gray_1[1]                          1.745        0.912 
-FIFO_CDC_0.p_R_sync\.R_waddr_next_1[2]     FCCC_C0_0/FCCC_C0_0/GL0     SLE         D            W_adr_gray_1[2]                          1.745        0.912 
-FIFO_CDC_0.p_R_sync\.R_waddr_next_1[3]     FCCC_C0_0/FCCC_C0_0/GL0     SLE         D            W_adr_gray_1[3]                          1.745        0.912 
-FIFO_CDC_0.p_R_sync\.R_waddr_next_1[4]     FCCC_C0_0/FCCC_C0_0/GL0     SLE         D            W_adr_gray_1[4]                          1.745        0.912 
-FIFO_CDC_0.p_R_sync\.R_waddr_next_1[5]     FCCC_C0_0/FCCC_C0_0/GL0     SLE         D            W_adr_gray_1[5]                          1.745        0.912 
-FIFO_CDC_0.p_R_sync\.R_waddr_next_1[6]     FCCC_C0_0/FCCC_C0_0/GL0     SLE         D            W_adr_gray_1[6]                          1.745        0.912 
-============================================================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      2.000
-    - Setup time:                            0.255
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         1.745
-
-    - Propagation time:                      4.277
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -2.532
-
-    Number of logic level(s):                13
-    Starting point:                          FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0 / B_DOUT[11]
-    Ending point:                            fifo_read_test_0.LEDs[7] / D
-    The start point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [rising] on pin B_CLK
-    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL1 [rising] on pin CLK
-
-Instance / Net                                                  Pin            Pin               Arrival     No. of    
-Name                                                Type        Name           Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0                RAM1K18     B_DOUT[11]     Out     2.289     2.289       -         
-FIFO_CDC_0_R_DATA[10]                               Net         -              -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_33_RNO     CFG3        C              In      -         2.537       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_33_RNO     CFG3        Y              Out     0.226     2.763       -         
-N_137_mux_i_1                                       Net         -              -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_33         ARI1        D              In      -         3.011       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_33         ARI1        FCO            Out     0.505     3.517       -         
-un3_fifo_ready_sig2_0_data_tmp[5]                   Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_39         ARI1        FCI            In      -         3.517       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_39         ARI1        FCO            Out     0.016     3.533       -         
-un3_fifo_ready_sig2_0_data_tmp[6]                   Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27         ARI1        FCI            In      -         3.533       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27         ARI1        FCO            Out     0.016     3.549       -         
-un3_fifo_ready_sig2_0_data_tmp[7]                   Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93         ARI1        FCI            In      -         3.549       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93         ARI1        FCO            Out     0.016     3.566       -         
-un3_fifo_ready_sig2_0_data_tmp[8]                   Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57         ARI1        FCI            In      -         3.566       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57         ARI1        FCO            Out     0.016     3.582       -         
-un3_fifo_ready_sig2_0_data_tmp[9]                   Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63         ARI1        FCI            In      -         3.582       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63         ARI1        FCO            Out     0.016     3.598       -         
-un3_fifo_ready_sig2_0_data_tmp[10]                  Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21         ARI1        FCI            In      -         3.598       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21         ARI1        FCO            Out     0.016     3.614       -         
-un3_fifo_ready_sig2_0_data_tmp[11]                  Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69         ARI1        FCI            In      -         3.614       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69         ARI1        FCO            Out     0.016     3.631       -         
-un3_fifo_ready_sig2_0_data_tmp[12]                  Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81         ARI1        FCI            In      -         3.631       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81         ARI1        FCO            Out     0.016     3.647       -         
-un3_fifo_ready_sig2_0_data_tmp[13]                  Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87         ARI1        FCI            In      -         3.647       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87         ARI1        FCO            Out     0.016     3.663       -         
-un3_fifo_ready_sig2_0_data_tmp[14]                  Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45         ARI1        FCI            In      -         3.663       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45         ARI1        FCO            Out     0.016     3.680       -         
-un3_fifo_ready_sig2_0_data_tmp[15]                  Net         -              -       0.248     -           1         
-fifo_read_test_0.LEDs_RNO[7]                        CFG1        A              In      -         3.928       -         
-fifo_read_test_0.LEDs_RNO[7]                        CFG1        Y              Out     0.100     4.028       -         
-un3_fifo_ready_sig2_0_data_tmp_i[15]                Net         -              -       0.248     -           1         
-fifo_read_test_0.LEDs[7]                            SLE         D              In      -         4.277       -         
-=======================================================================================================================
-Total path delay (propagation time + setup) of 4.532 is 3.538(78.1%) logic and 0.994(21.9%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 2: 
-      Requested Period:                      2.000
-    - Setup time:                            0.255
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         1.745
-
-    - Propagation time:                      4.232
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -2.487
-
-    Number of logic level(s):                14
-    Starting point:                          FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0 / B_DOUT[9]
-    Ending point:                            fifo_read_test_0.LEDs[7] / D
-    The start point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [rising] on pin B_CLK
-    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL1 [rising] on pin CLK
-
-Instance / Net                                                  Pin           Pin               Arrival     No. of    
-Name                                                Type        Name          Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0                RAM1K18     B_DOUT[9]     Out     2.289     2.289       -         
-FIFO_CDC_0_R_DATA[8]                                Net         -             -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_75_RNO     CFG4        B             In      -         2.537       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_75_RNO     CFG4        Y             Out     0.165     2.702       -         
-N_134_mux_i_1                                       Net         -             -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_75         ARI1        D             In      -         2.950       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_75         ARI1        FCO           Out     0.505     3.455       -         
-un3_fifo_ready_sig2_0_data_tmp[4]                   Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_33         ARI1        FCI           In      -         3.455       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_33         ARI1        FCO           Out     0.016     3.472       -         
-un3_fifo_ready_sig2_0_data_tmp[5]                   Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_39         ARI1        FCI           In      -         3.472       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_39         ARI1        FCO           Out     0.016     3.488       -         
-un3_fifo_ready_sig2_0_data_tmp[6]                   Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27         ARI1        FCI           In      -         3.488       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27         ARI1        FCO           Out     0.016     3.504       -         
-un3_fifo_ready_sig2_0_data_tmp[7]                   Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93         ARI1        FCI           In      -         3.504       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93         ARI1        FCO           Out     0.016     3.521       -         
-un3_fifo_ready_sig2_0_data_tmp[8]                   Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57         ARI1        FCI           In      -         3.521       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57         ARI1        FCO           Out     0.016     3.537       -         
-un3_fifo_ready_sig2_0_data_tmp[9]                   Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63         ARI1        FCI           In      -         3.537       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63         ARI1        FCO           Out     0.016     3.553       -         
-un3_fifo_ready_sig2_0_data_tmp[10]                  Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21         ARI1        FCI           In      -         3.553       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21         ARI1        FCO           Out     0.016     3.570       -         
-un3_fifo_ready_sig2_0_data_tmp[11]                  Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69         ARI1        FCI           In      -         3.570       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69         ARI1        FCO           Out     0.016     3.586       -         
-un3_fifo_ready_sig2_0_data_tmp[12]                  Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81         ARI1        FCI           In      -         3.586       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81         ARI1        FCO           Out     0.016     3.602       -         
-un3_fifo_ready_sig2_0_data_tmp[13]                  Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87         ARI1        FCI           In      -         3.602       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87         ARI1        FCO           Out     0.016     3.618       -         
-un3_fifo_ready_sig2_0_data_tmp[14]                  Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45         ARI1        FCI           In      -         3.618       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45         ARI1        FCO           Out     0.016     3.635       -         
-un3_fifo_ready_sig2_0_data_tmp[15]                  Net         -             -       0.248     -           1         
-fifo_read_test_0.LEDs_RNO[7]                        CFG1        A             In      -         3.883       -         
-fifo_read_test_0.LEDs_RNO[7]                        CFG1        Y             Out     0.100     3.983       -         
-un3_fifo_ready_sig2_0_data_tmp_i[15]                Net         -             -       0.248     -           1         
-fifo_read_test_0.LEDs[7]                            SLE         D             In      -         4.232       -         
-======================================================================================================================
-Total path delay (propagation time + setup) of 4.487 is 3.493(77.8%) logic and 0.994(22.2%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 3: 
-      Requested Period:                      2.000
-    - Setup time:                            0.255
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         1.745
-
-    - Propagation time:                      3.815
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -2.070
-
-    Number of logic level(s):                12
-    Starting point:                          FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0 / B_DOUT[14]
-    Ending point:                            fifo_read_test_0.LEDs[7] / D
-    The start point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [rising] on pin B_CLK
-    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL1 [rising] on pin CLK
-
-Instance / Net                                              Pin            Pin               Arrival     No. of    
-Name                                            Type        Name           Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------------------
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0            RAM1K18     B_DOUT[14]     Out     2.289     2.289       -         
-FIFO_CDC_0_R_DATA[13]                           Net         -              -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_40     CFG4        B              In      -         2.537       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_40     CFG4        Y              Out     0.165     2.702       -         
-un3_fifo_ready_sig2_0_N_48                      Net         -              -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_39     ARI1        A              In      -         2.950       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_39     ARI1        FCO            Out     0.121     3.071       -         
-un3_fifo_ready_sig2_0_data_tmp[6]               Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27     ARI1        FCI            In      -         3.071       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27     ARI1        FCO            Out     0.016     3.087       -         
-un3_fifo_ready_sig2_0_data_tmp[7]               Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93     ARI1        FCI            In      -         3.087       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93     ARI1        FCO            Out     0.016     3.104       -         
-un3_fifo_ready_sig2_0_data_tmp[8]               Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57     ARI1        FCI            In      -         3.104       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57     ARI1        FCO            Out     0.016     3.120       -         
-un3_fifo_ready_sig2_0_data_tmp[9]               Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63     ARI1        FCI            In      -         3.120       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63     ARI1        FCO            Out     0.016     3.136       -         
-un3_fifo_ready_sig2_0_data_tmp[10]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21     ARI1        FCI            In      -         3.136       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21     ARI1        FCO            Out     0.016     3.152       -         
-un3_fifo_ready_sig2_0_data_tmp[11]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69     ARI1        FCI            In      -         3.152       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69     ARI1        FCO            Out     0.016     3.169       -         
-un3_fifo_ready_sig2_0_data_tmp[12]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81     ARI1        FCI            In      -         3.169       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81     ARI1        FCO            Out     0.016     3.185       -         
-un3_fifo_ready_sig2_0_data_tmp[13]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87     ARI1        FCI            In      -         3.185       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87     ARI1        FCO            Out     0.016     3.201       -         
-un3_fifo_ready_sig2_0_data_tmp[14]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45     ARI1        FCI            In      -         3.201       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45     ARI1        FCO            Out     0.016     3.218       -         
-un3_fifo_ready_sig2_0_data_tmp[15]              Net         -              -       0.248     -           1         
-fifo_read_test_0.LEDs_RNO[7]                    CFG1        A              In      -         3.466       -         
-fifo_read_test_0.LEDs_RNO[7]                    CFG1        Y              Out     0.100     3.566       -         
-un3_fifo_ready_sig2_0_data_tmp_i[15]            Net         -              -       0.248     -           1         
-fifo_read_test_0.LEDs[7]                        SLE         D              In      -         3.815       -         
-===================================================================================================================
-Total path delay (propagation time + setup) of 4.070 is 3.076(75.6%) logic and 0.994(24.4%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 4: 
-      Requested Period:                      2.000
-    - Setup time:                            0.255
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         1.745
-
-    - Propagation time:                      3.798
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -2.054
-
-    Number of logic level(s):                11
-    Starting point:                          FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0 / B_DOUT[16]
-    Ending point:                            fifo_read_test_0.LEDs[7] / D
-    The start point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [rising] on pin B_CLK
-    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL1 [rising] on pin CLK
-
-Instance / Net                                              Pin            Pin               Arrival     No. of    
-Name                                            Type        Name           Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------------------
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0            RAM1K18     B_DOUT[16]     Out     2.289     2.289       -         
-FIFO_CDC_0_R_DATA[15]                           Net         -              -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_28     CFG4        B              In      -         2.537       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_28     CFG4        Y              Out     0.165     2.702       -         
-un3_fifo_ready_sig2_0_N_58                      Net         -              -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27     ARI1        A              In      -         2.950       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27     ARI1        FCO            Out     0.121     3.071       -         
-un3_fifo_ready_sig2_0_data_tmp[7]               Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93     ARI1        FCI            In      -         3.071       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93     ARI1        FCO            Out     0.016     3.087       -         
-un3_fifo_ready_sig2_0_data_tmp[8]               Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57     ARI1        FCI            In      -         3.087       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57     ARI1        FCO            Out     0.016     3.104       -         
-un3_fifo_ready_sig2_0_data_tmp[9]               Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63     ARI1        FCI            In      -         3.104       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63     ARI1        FCO            Out     0.016     3.120       -         
-un3_fifo_ready_sig2_0_data_tmp[10]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21     ARI1        FCI            In      -         3.120       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21     ARI1        FCO            Out     0.016     3.136       -         
-un3_fifo_ready_sig2_0_data_tmp[11]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69     ARI1        FCI            In      -         3.136       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69     ARI1        FCO            Out     0.016     3.152       -         
-un3_fifo_ready_sig2_0_data_tmp[12]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81     ARI1        FCI            In      -         3.152       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81     ARI1        FCO            Out     0.016     3.169       -         
-un3_fifo_ready_sig2_0_data_tmp[13]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87     ARI1        FCI            In      -         3.169       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87     ARI1        FCO            Out     0.016     3.185       -         
-un3_fifo_ready_sig2_0_data_tmp[14]              Net         -              -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45     ARI1        FCI            In      -         3.185       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45     ARI1        FCO            Out     0.016     3.201       -         
-un3_fifo_ready_sig2_0_data_tmp[15]              Net         -              -       0.248     -           1         
-fifo_read_test_0.LEDs_RNO[7]                    CFG1        A              In      -         3.450       -         
-fifo_read_test_0.LEDs_RNO[7]                    CFG1        Y              Out     0.100     3.550       -         
-un3_fifo_ready_sig2_0_data_tmp_i[15]            Net         -              -       0.248     -           1         
-fifo_read_test_0.LEDs[7]                        SLE         D              In      -         3.798       -         
-===================================================================================================================
-Total path delay (propagation time + setup) of 4.054 is 3.060(75.5%) logic and 0.994(24.5%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 5: 
-      Requested Period:                      2.000
-    - Setup time:                            0.255
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         1.745
-
-    - Propagation time:                      3.641
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -1.896
-
-    Number of logic level(s):                17
-    Starting point:                          FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0 / B_DOUT[1]
-    Ending point:                            fifo_read_test_0.LEDs[7] / D
-    The start point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [rising] on pin B_CLK
-    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL1 [rising] on pin CLK
-
-Instance / Net                                              Pin           Pin               Arrival     No. of    
-Name                                            Type        Name          Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------------
-FIFO_CDC_0.FIFO_CDC_LSRAM_0.DPSRAM_0            RAM1K18     B_DOUT[1]     Out     2.289     2.289       -         
-FIFO_CDC_0_R_DATA[1]                            Net         -             -       0.248     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_1      ARI1        C             In      -         2.537       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_1      ARI1        FCO           Out     0.262     2.799       -         
-un3_fifo_ready_sig2_0_data_tmp[0]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_9      ARI1        FCI           In      -         2.799       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_9      ARI1        FCO           Out     0.016     2.816       -         
-un3_fifo_ready_sig2_0_data_tmp[1]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_15     ARI1        FCI           In      -         2.816       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_15     ARI1        FCO           Out     0.016     2.832       -         
-un3_fifo_ready_sig2_0_data_tmp[2]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_51     ARI1        FCI           In      -         2.832       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_51     ARI1        FCO           Out     0.016     2.848       -         
-un3_fifo_ready_sig2_0_data_tmp[3]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_75     ARI1        FCI           In      -         2.848       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_75     ARI1        FCO           Out     0.016     2.864       -         
-un3_fifo_ready_sig2_0_data_tmp[4]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_33     ARI1        FCI           In      -         2.864       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_33     ARI1        FCO           Out     0.016     2.881       -         
-un3_fifo_ready_sig2_0_data_tmp[5]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_39     ARI1        FCI           In      -         2.881       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_39     ARI1        FCO           Out     0.016     2.897       -         
-un3_fifo_ready_sig2_0_data_tmp[6]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27     ARI1        FCI           In      -         2.897       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_27     ARI1        FCO           Out     0.016     2.913       -         
-un3_fifo_ready_sig2_0_data_tmp[7]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93     ARI1        FCI           In      -         2.913       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_93     ARI1        FCO           Out     0.016     2.930       -         
-un3_fifo_ready_sig2_0_data_tmp[8]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57     ARI1        FCI           In      -         2.930       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_57     ARI1        FCO           Out     0.016     2.946       -         
-un3_fifo_ready_sig2_0_data_tmp[9]               Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63     ARI1        FCI           In      -         2.946       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_63     ARI1        FCO           Out     0.016     2.962       -         
-un3_fifo_ready_sig2_0_data_tmp[10]              Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21     ARI1        FCI           In      -         2.962       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_21     ARI1        FCO           Out     0.016     2.978       -         
-un3_fifo_ready_sig2_0_data_tmp[11]              Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69     ARI1        FCI           In      -         2.978       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_69     ARI1        FCO           Out     0.016     2.995       -         
-un3_fifo_ready_sig2_0_data_tmp[12]              Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81     ARI1        FCI           In      -         2.995       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_81     ARI1        FCO           Out     0.016     3.011       -         
-un3_fifo_ready_sig2_0_data_tmp[13]              Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87     ARI1        FCI           In      -         3.011       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_87     ARI1        FCO           Out     0.016     3.027       -         
-un3_fifo_ready_sig2_0_data_tmp[14]              Net         -             -       0.000     -           1         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45     ARI1        FCI           In      -         3.027       -         
-fifo_read_test_0.un3_fifo_ready_sig2_0_I_45     ARI1        FCO           Out     0.016     3.044       -         
-un3_fifo_ready_sig2_0_data_tmp[15]              Net         -             -       0.248     -           1         
-fifo_read_test_0.LEDs_RNO[7]                    CFG1        A             In      -         3.292       -         
-fifo_read_test_0.LEDs_RNO[7]                    CFG1        Y             Out     0.100     3.392       -         
-un3_fifo_ready_sig2_0_data_tmp_i[15]            Net         -             -       0.248     -           1         
-fifo_read_test_0.LEDs[7]                        SLE         D             In      -         3.641       -         
-==================================================================================================================
-Total path delay (propagation time + setup) of 3.896 is 3.151(80.9%) logic and 0.746(19.1%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
-
-====================================
-Detailed Report for Clock: FCCC_C0_0/FCCC_C0_0/GL1
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                            Starting                                                                        Arrival          
-Instance                                    Reference                   Type     Pin     Net                                Time        Slack
-                                            Clock                                                                                            
----------------------------------------------------------------------------------------------------------------------------------------------
-fifo_read_test_0.FIFO_ON                    FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       FIFO_ON                            0.087       0.130
-fifo_read_test_0.BYTES[1]                   FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       fifo_read_test_0_FIFO_BYTES[1]     0.087       0.470
-fifo_read_test_0.BYTES[0]                   FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       fifo_read_test_0_FIFO_BYTES[0]     0.087       0.487
-FIFO_CDC_0.p_R_logic_s\.R_adr_gray_0[0]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       R_adr_gray_0[0]                    0.087       1.347
-FIFO_CDC_0.p_R_logic_s\.R_adr_gray_0[1]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       R_adr_gray_0[1]                    0.087       1.347
-FIFO_CDC_0.p_R_logic_s\.R_adr_gray_0[2]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       R_adr_gray_0[2]                    0.087       1.347
-FIFO_CDC_0.p_R_logic_s\.R_adr_gray_0[3]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       R_adr_gray_0[3]                    0.087       1.347
-FIFO_CDC_0.p_R_logic_s\.R_adr_gray_0[4]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       R_adr_gray_0[4]                    0.087       1.347
-FIFO_CDC_0.p_R_logic_s\.R_adr_gray_0[5]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       R_adr_gray_0[5]                    0.087       1.347
-FIFO_CDC_0.p_R_logic_s\.R_adr_gray_0[6]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      Q       R_adr_gray_0[6]                    0.087       1.347
-=============================================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                                      Starting                                                                        Required          
-Instance                              Reference                   Type     Pin     Net                                Time         Slack
-                                      Clock                                                                                             
-----------------------------------------------------------------------------------------------------------------------------------------
-FIFO_CDC_0.SLVDOM_ON[1]               FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       FIFO_ON                            1.745        0.130
-FIFO_CDC_0.W_bytes[1]                 FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       fifo_read_test_0_FIFO_BYTES[1]     1.745        0.470
-FIFO_CDC_0.W_bytes[0]                 FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       fifo_read_test_0_FIFO_BYTES[0]     1.745        0.487
-FIFO_CDC_0.p_W_sync\.W_raddr_1[0]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       R_adr_gray_0[0]                    1.745        1.347
-FIFO_CDC_0.p_W_sync\.W_raddr_1[1]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       R_adr_gray_0[1]                    1.745        1.347
-FIFO_CDC_0.p_W_sync\.W_raddr_1[2]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       R_adr_gray_0[2]                    1.745        1.347
-FIFO_CDC_0.p_W_sync\.W_raddr_1[3]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       R_adr_gray_0[3]                    1.745        1.347
-FIFO_CDC_0.p_W_sync\.W_raddr_1[4]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       R_adr_gray_0[4]                    1.745        1.347
-FIFO_CDC_0.p_W_sync\.W_raddr_1[5]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       R_adr_gray_0[5]                    1.745        1.347
-FIFO_CDC_0.p_W_sync\.W_raddr_1[6]     FCCC_C0_0/FCCC_C0_0/GL1     SLE      D       R_adr_gray_0[6]                    1.745        1.347
-========================================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      2.000
-    - Setup time:                            0.255
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         1.745
-
-    - Propagation time:                      1.615
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 0.130
-
-    Number of logic level(s):                0
-    Starting point:                          fifo_read_test_0.FIFO_ON / Q
-    Ending point:                            FIFO_CDC_0.SLVDOM_ON[1] / D
-    The start point is clocked by            FCCC_C0_0/FCCC_C0_0/GL1 [rising] on pin CLK
-    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL0 [rising] on pin CLK
-
-Instance / Net                        Pin      Pin               Arrival     No. of    
-Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
----------------------------------------------------------------------------------------
-fifo_read_test_0.FIFO_ON     SLE      Q        Out     0.087     0.087       -         
-FIFO_ON                      Net      -        -       1.527     -           56        
-FIFO_CDC_0.SLVDOM_ON[1]      SLE      D        In      -         1.615       -         
-=======================================================================================
-Total path delay (propagation time + setup) of 1.870 is 0.343(18.3%) logic and 1.527(81.7%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
-
-====================================
-Detailed Report for Clock: System
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                 Starting                                 Arrival          
-Instance                         Reference     Type     Pin      Net      Time        Slack
-                                 Clock                                                     
--------------------------------------------------------------------------------------------
-FCCC_C0_0.FCCC_C0_0.CCC_INST     System        CCC      LOCK     LOCK     0.000       7.891
-===========================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                                     Starting                                              Required          
-Instance                             Reference     Type     Pin     Net                    Time         Slack
-                                     Clock                                                                   
--------------------------------------------------------------------------------------------------------------
-fifo_read_test_0.next_byte[0]        System        SLE      EN      next_byte_1_sqmuxa     9.662        7.891
-fifo_read_test_0.next_byte[1]        System        SLE      EN      next_byte_1_sqmuxa     9.662        7.891
-fifo_read_test_0.R_EN                System        SLE      EN      LOCK                   9.662        8.545
-fifo_read_test_0.buttons_last[0]     System        SLE      EN      LOCK                   9.662        8.545
-fifo_read_test_0.buttons_last[1]     System        SLE      EN      LOCK                   9.662        8.545
-=============================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      10.000
-    - Setup time:                            0.338
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.662
-
-    - Propagation time:                      1.771
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 7.891
-
-    Number of logic level(s):                1
-    Starting point:                          FCCC_C0_0.FCCC_C0_0.CCC_INST / LOCK
-    Ending point:                            fifo_read_test_0.next_byte[0] / EN
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            FCCC_C0_0/FCCC_C0_0/GL1 [rising] on pin CLK
-
-Instance / Net                                  Pin      Pin               Arrival     No. of    
-Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------
-FCCC_C0_0.FCCC_C0_0.CCC_INST           CCC      LOCK     Out     0.000     0.000       -         
-LOCK                                   Net      -        -       1.117     -           5         
-fifo_read_test_0.states_RNIH70O[1]     CFG3     B        In      -         1.117       -         
-fifo_read_test_0.states_RNIH70O[1]     CFG3     Y        Out     0.164     1.281       -         
-next_byte_1_sqmuxa                     Net      -        -       0.490     -           2         
-fifo_read_test_0.next_byte[0]          SLE      EN       In      -         1.771       -         
-=================================================================================================
-Total path delay (propagation time + setup) of 2.109 is 0.502(23.8%) logic and 1.607(76.2%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-
-##### END OF TIMING REPORT #####]
-
-Timing exceptions that could not be applied
-
-Finished final timing analysis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 170MB peak: 170MB)
-
-
-Finished timing report (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 170MB peak: 170MB)
-
----------------------------------------
-Resource Usage Report for FIFO_CDC_test 
-
-Mapping to part: m2s010vf400std
-Cell usage:
-CCC             1 use
-CLKINT          3 uses
-RCOSC_25_50MHZ  1 use
-CFG1           15 uses
-CFG2           39 uses
-CFG3           55 uses
-CFG4           64 uses
-
-Carry cells:
-ARI1            103 uses - used for arithmetic functions
-ARI1            10 uses - used for Wide-Mux implementation
-Total ARI1      113 uses
-
-
-Sequential Cells: 
-SLE            314 uses
-
-DSP Blocks:    0 of 22 (0%)
-
-I/O ports: 10
-I/O primitives: 10
-INBUF          2 uses
-OUTBUF         8 uses
-
-
-Global Clock Buffers: 3
-
-RAM/ROM usage summary
-Total Block RAMs (RAM1K18) : 1 of 21 (4%)
-
-Total LUTs:    286
-
-Extra resources required for RAM and MACC interface logic during P&R:
-
-RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
-RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
-MACC     Interface Logic : SLEs = 0; LUTs = 0;
-
-Total number of SLEs after P&R:  314 + 0 + 36 + 0 = 350;
-Total number of LUTs after P&R:  286 + 0 + 36 + 0 = 322;
-
-Mapper successful!
-
-At Mapper Exit (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:15s; Memory used current: 60MB peak: 170MB)
-
-Process took 0h:00m:17s realtime, 0h:00m:15s cputime
-# Mon May  4 22:46:07 2020
+Error Code [acg4.c:26949 Assertion failed]
+While running 64-bit - Windows build
+@E::Internal Error in m_generic.exe
+Stack trace
+ID:mapact/2737/m_generic.exe
+===========
+0x1401291EF
+0x140125208
+0x140126B3A
+0x140FCDB24
+0x140FCD9B7
+0x140FCD2AE
+0x140FCF6F5
+0x140FCD617
+0x1401D1A3E
+0x1401D751C
+0x1401CECDD
+0x1401CCDAF
+0x1401D78F1
+0x14019DD0E
+0x1401A6A63
+0x1401200A2
+0x1417FCE14
+0x14122446A
+0x889E17BD4
+0x88A8ECE51
+Please open a web case about this problem. A Synopsys CAE will then contact you.
+
+Instructions to open a web-case:
+1.  Go to the Synopsys support web site, https://solvnet.synopsys.com. 
+2.  Login with your user name and password. If you do not have an account, please register and set one up.
+3.  Click the `Enter A Call' link.
+4.  Provide a detailed description of the problem, and fill in all required fields.
+5.  Attach any test cases or archived project files required to reproduce the problem. 
+Stack trace
+ID:mapact/2737/m_generic.exe
+===========
+0x1401291EF
+0x140125231
+0x140126B3A
+0x140FCDB24
+0x140FCD9B7
+0x140FCD2AE
+0x140FCF6F5
+0x140FCD617
+0x1401D1A3E
+0x1401D751C
+0x1401CECDD
+0x1401CCDAF
+0x1401D78F1
+0x14019DD0E
+0x1401A6A63
+0x1401200A2
+0x1417FCE14
+0x14122446A
+0x889E17BD4
+0x88A8ECE51
+@N:|No additional debug information available
+Process took 0h:00m:13s realtime, 0h:00m:12s cputime
+# Wed May  6 01:58:10 2020
 
 ###########################################################]

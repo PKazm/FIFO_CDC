@@ -95,7 +95,6 @@ Post processing for work.fifo_cdc.architecture_fifo_cdc
 Running optimization stage 1 on FIFO_CDC .......
 @W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":321:8:321:9|Pruning unused register p_W_sync.W_raddr_next_0_2(10 downto 0). Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":321:8:321:9|Pruning unused register p_W_sync.W_raddr_next_1_2(10 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL169 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\hdl\FIFO_CDC.vhd":282:8:282:9|Pruning unused register BYTES_sig_3(1 downto 0). Make sure that there are no unused intermediate registers.
 @N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\FCCC_C0\FCCC_C0.vhd":17:7:17:13|Synthesizing work.fccc_c0.rtl.
 @N: CD630 :"E:\Github_Repos\FIFO_CDC\FIFO_CDC\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd":8:7:8:28|Synthesizing work.fccc_c0_fccc_c0_0_fccc.def_arch.
 @N: CD630 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.vhd":798:10:798:12|Synthesizing smartfusion2.ccc.syn_black_box.
@@ -137,12 +136,12 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 95MB peak: 98MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 99MB peak: 101MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
 
 Process completed successfully.
-# Mon May  4 22:45:45 2020
+# Wed May  6 01:57:52 2020
 
 ###########################################################]
 ###########################################################[
@@ -170,7 +169,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon May  4 22:45:46 2020
+# Wed May  6 01:57:52 2020
 
 ###########################################################]
 
@@ -180,11 +179,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 18MB peak: 19MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 25MB peak: 25MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
 
 Process completed successfully.
-# Mon May  4 22:45:46 2020
+# Wed May  6 01:57:52 2020
 
 ###########################################################]

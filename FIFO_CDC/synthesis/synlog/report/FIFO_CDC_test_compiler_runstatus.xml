@@ -18,7 +18,7 @@ The file contains the job information from compiler to be displayed as part of t
   <report_link name="more"><data>E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synlog\report\FIFO_CDC_test_compiler_notes.txt</data></report_link>
   </info>
 			<info name="Warnings">
-  <data>13</data>
+  <data>12</data>
   <report_link name="more"><data>E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synlog\report\FIFO_CDC_test_compiler_warnings.txt</data></report_link>
   </info>
 			<info name="Errors">
@@ -29,13 +29,13 @@ The file contains the job information from compiler to be displayed as part of t
   <data>-</data>
   </info>
 			<info name="Real Time">
-  <data>00h:00m:06s</data>
+  <data>00h:00m:05s</data>
   </info>
 			<info name="Peak Memory">
   <data>-</data>
   </info>
 			<info name="Date &amp;Time">
-  <data type="timestamp">1588646746</data>
+  <data type="timestamp">1588744672</data>
   </info>
 			</job_info>
 </job_run_status>

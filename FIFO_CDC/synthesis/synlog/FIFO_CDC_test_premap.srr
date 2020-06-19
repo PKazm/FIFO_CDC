@@ -1,4 +1,4 @@
-# Mon May  4 22:45:47 2020
+# Wed May  6 01:57:54 2020
 
 
 Copyright (C) 1994-2019 Synopsys, Inc.
@@ -53,7 +53,7 @@ Level     Clock                                         Frequency     Period    
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                                                       default_clkgroup     0    
 1 .         FCCC_C0_0/FCCC_C0_0/GL0                     125.0 MHz     8.000         generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup     175  
-1 .         FCCC_C0_0/FCCC_C0_0/GL1                     100.0 MHz     10.000        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup     143  
+1 .         FCCC_C0_0/FCCC_C0_0/GL1                     100.0 MHz     10.000        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup     145  
                                                                                                                                                                              
 0 -       System                                        100.0 MHz     10.000        system                                                         system_clkgroup      0    
 =============================================================================================================================================================================
@@ -68,7 +68,7 @@ Clock                                         Load      Pin                     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     0         OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     -                            -                 -                                   
 FCCC_C0_0/FCCC_C0_0/GL0                       175       FCCC_C0_0.FCCC_C0_0.CCC_INST.GL0(CCC)                         fifo_write_test_0.W_EN.C     -                 FCCC_C0_0.FCCC_C0_0.GL0_INST.I(BUFG)
-FCCC_C0_0/FCCC_C0_0/GL1                       143       FCCC_C0_0.FCCC_C0_0.CCC_INST.GL1(CCC)                         fifo_read_test_0.R_EN.C      -                 FCCC_C0_0.FCCC_C0_0.GL1_INST.I(BUFG)
+FCCC_C0_0/FCCC_C0_0/GL1                       145       FCCC_C0_0.FCCC_C0_0.CCC_INST.GL1(CCC)                         fifo_read_test_0.R_EN.C      -                 FCCC_C0_0.FCCC_C0_0.GL1_INST.I(BUFG)
                                                                                                                                                                                                          
 System                                        0         -                                                             -                            -                 -                                   
 =========================================================================================================================================================================================================
@@ -77,7 +77,7 @@ System                                        0         -                       
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\FIFO_CDC_test.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 162MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 161MB peak: 161MB)
 
 Encoding state machine states[0:3] (in view: work.fifo_read_test(architecture_fifo_read_test))
 original code -> new code
@@ -95,9 +95,9 @@ Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 81MB peak: 164MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 82MB peak: 164MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon May  4 22:45:49 2020
+# Wed May  6 01:57:56 2020
 
 ###########################################################]

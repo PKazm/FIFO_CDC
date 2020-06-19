@@ -1,7 +1,7 @@
 C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.FIFO_CDC_test  -multisrs  E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\FIFO_CDC_test_comp.srs  -osyn  E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synwork\FIFO_CDC_test_mult.srs  -log  E:\Github_Repos\FIFO_CDC\FIFO_CDC\synthesis\synlog\FIFO_CDC_test_multi_srs_gen.srr 
 relcom:C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe -link -top work.FIFO_CDC_test -multisrs ..\synwork\FIFO_CDC_test_comp.srs -osyn ..\synwork\FIFO_CDC_test_mult.srs -log ..\synlog\FIFO_CDC_test_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\FIFO_CDC_test_comp.srs|io:i|time:1588646746|size:25425|exec:0|csum:A93A13F8832B6AB8CC2095689AFF360A
-file:..\synwork\FIFO_CDC_test_mult.srs|io:o|time:1588646747|size:4298|exec:0|csum:
-file:..\synlog\FIFO_CDC_test_multi_srs_gen.srr|io:o|time:1588646747|size:1156|exec:0|csum:
+rc:0 success:1 runtime:1
+file:..\synwork\FIFO_CDC_test_comp.srs|io:i|time:1588744672|size:25489|exec:0|csum:A9B35701C0E85916836C12C3EDBE832E
+file:..\synwork\FIFO_CDC_test_mult.srs|io:o|time:1588744674|size:4299|exec:0|csum:
+file:..\synlog\FIFO_CDC_test_multi_srs_gen.srr|io:o|time:1588744674|size:1156|exec:0|csum:
 file:C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1582898378|size:8841216|exec:1|csum:0CC7C05A48C9642EAD04A8A03F593C86

@@ -214,8 +214,8 @@ begin
             W_ADDR => W_ADDR,
             R_ADDR => R_ADDR,
             W_WEN => W_WEN,
-            --BYTES => BYTES_sig,
-            BYTES => "11",
+            BYTES => BYTES_sig,
+            --BYTES => "11",
 
             -- Outputs
             R_DOUT => R_DATA
