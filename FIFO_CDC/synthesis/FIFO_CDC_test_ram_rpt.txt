@@ -1,5 +1,0 @@
-
-#####  START OF RAM REPORT  #####
-
-#####  LSRAM REPORT  #####
-

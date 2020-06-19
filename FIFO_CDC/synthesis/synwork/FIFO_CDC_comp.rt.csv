@@ -1,5 +1,0 @@
-Library, Design Unit, compile Time, Peak Mem Usage
-smartfusion2, Entity: RAM1K18 Architecture: syn_black_box, 0h:00m:00s,     93 MB
-work, Entity: FIFO_CDC_LSRAM Architecture: architecture_fifo_cdc_lsram, 0h:00m:00s,     93 MB
-work, Entity: Gray_Code_Counter Architecture: architecture_gray_code_counter, 0h:00m:00s,     93 MB
-work, Entity: FIFO_CDC Architecture: architecture_fifo_cdc, 0h:00m:00s,     95 MB
