@@ -1,6 +1,6 @@
-component/
-designer/
-simulation/
-smartgen/
-synthesis/
-tooldata/
+FIFO_CDC/component/
+FIFO_CDC/designer/
+FIFO_CDC/simulation/
+FIFO_CDC/smartgen/
+FIFO_CDC/synthesis/
+FIFO_CDC/tooldata/
